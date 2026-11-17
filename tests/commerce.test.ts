@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { filterProducts, validateCart, validateCustomer, createOrder, validateOrders, provinces, persistOrder } from '../src/lib/commerce.ts';
+import { filterProducts, validateCart, validateCustomer, createOrder, validateOrders, provinces, persistOrder, readShopStorage, storageKeys, parseJSON } from '../src/lib/commerce.ts';
 import type { Product, Customer } from '../src/types/shop.ts';
 
 const product: Product = { id: 'p1', slug: 'uplove', name: 'UpLove Kebaya', category: 'kebaya', collections: ['aluna'], price: 500000, description: 'Katun', material: 'Katun', care: 'Cuci tangan', images: ['/one.jpg'], variants: [{ id: 'ivory', color: 'Ivory', colorHex: '#fff', images: ['/one.jpg'], sizes: [{ size: 'M', stock: 3 }, { size: 'L', stock: 0 }] }], readyStock: true, newArrival: true, popularity: 9, createdAt: '2026-01-01' };
@@ -41,4 +41,24 @@ persistOrder({ getItem: () => null, setItem: (_key: string, value: string) => { 
 assert.equal(JSON.parse(saved)[0].id, 'UPLOVE-test');
 persistOrder({ getItem: () => JSON.stringify([order]), setItem: (_key: string, value: string) => { saved = value; } }, { ...order, id: 'UPLOVE-next' }, changedProducts, 50000);
 assert.deepEqual(JSON.parse(saved).map((row: { id: string }) => row.id), ['UPLOVE-next', 'UPLOVE-test']);
-console.log('Commerce assertions passed.');
+const legacyLine = { ...line, productId: 'selara-001' };
+const legacyOrder = { ...order, id: 'SEL-existing', customer: { ...customer, notes: 'selara-001 is my original note' }, items: [{ ...order.items[0], productId: legacyLine.productId }] };
+const stored = new Map<string, string>([
+  ['selara-cart-v1', JSON.stringify([legacyLine])],
+  ['selara-wishlist-v1', JSON.stringify([legacyLine.productId])],
+  ['selara-orders-v1', JSON.stringify([legacyOrder])],
+]);
+const storage = { getItem: (key: string) => stored.get(key) ?? null, setItem: (key: string, value: string) => { stored.set(key, value); } };
+assert.deepEqual(parseJSON(readShopStorage(storage, storageKeys.cart)), [{ ...line, productId: 'uplove-001' }]);
+assert.deepEqual(parseJSON(readShopStorage(storage, storageKeys.wishlist)), ['uplove-001']);
+const migrated = validateOrders(parseJSON(readShopStorage(storage, storageKeys.orders)));
+assert.equal(migrated[0].id, 'UPLOVE-existing');
+assert.equal(migrated[0].items[0].productId, 'uplove-001');
+assert.equal(migrated[0].customer.notes, legacyOrder.customer.notes);
+assert.equal(migrated[0].total, legacyOrder.total);
+assert.equal(stored.get('selara-orders-v1'), JSON.stringify([legacyOrder]));
+stored.set(storageKeys.cart, '[]');
+assert.equal(readShopStorage(storage, storageKeys.cart), '[]');
+assert.equal(readShopStorage({ getItem: key => key === 'selara-wishlist-v1' ? '["selara-001"]' : null, setItem: () => { throw new Error('quota'); } }, storageKeys.wishlist), '["uplove-001"]');
+assert.equal(readShopStorage({ getItem: () => 'bad json', setItem: () => { throw new Error('unexpected write'); } }, storageKeys.cart), 'bad json');
+console.log('Commerce assertions passed, including UpLove data migration.');

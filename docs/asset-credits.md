@@ -10,6 +10,8 @@ These photographs illustrate a representative catalogue and editorial direction.
 
 ## Local files and sources
 
+`public/images/uplove-og.jpg` combines the licensed Pexels 33478087 campaign photo with the UpLove wordmark for social sharing.
+
 | Local image | Photographer | Source | Use |
 | --- | --- | --- | --- |
 | `public/images/pexels-38356154.webp` | Tyo — Khalifa Malik | [Pexels 38356154](https://www.pexels.com/photo/traditional-indonesian-dress-in-jakarta-street-scene-38356154/) | Catalogue |

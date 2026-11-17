@@ -42,6 +42,8 @@ Home, all products, dress/kebaya and nine collections, product details, wishlist
 
 ## Shopping behavior and limits
 
+UpLove uses its own product IDs, storage keys and order prefix. Existing cart, wishlist and order data migrate automatically; previous receipt links remain valid. Legacy copies stay intact as a fallback, and customer-entered text is preserved.
+
 48 garments; search, filters, sorting, pagination, size selection, photographed colors, galleries, size charts, persistent wishlist/cart and local order receipts. Cart quantities are checked against catalogue stock. Most garments have one photographed color; alternate images appear only where available.
 
 Licensed Pexels photography replaces reference assets because their reuse rights were unconfirmed. Layout follows the reference; photography differs. No customer testimonials or real store/contact claims are included.

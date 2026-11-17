@@ -1,5 +1,5 @@
 export const brand = {
-  name: "UpLove", shortName: "UpLove", descriptor: "ATELIER", tagline: "Elegance in Every Detail",
+  name: "UpLove", shortName: "UpLove", tagline: "Elegance in Every Detail",
   description: "Kebaya, dress, dan busana pilihan untuk setiap momen yang berarti. Temukan koleksi UpLove dengan siluet anggun dan detail yang terjaga.",
   email: "hello@uplove.example", phone: "", address: "",
   social: { instagram: "", tiktok: "", facebook: "" },

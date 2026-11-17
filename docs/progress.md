@@ -2,6 +2,8 @@
 
 Plan: docs/implementation-plan.md
 
+Identity update: UpLove replaces the prior name across visible content, metadata, wordmark/favicon, social image, placeholder contact, package/catalogue identity and local storage. Existing shopping data and receipt links migrate without deleting the original copies. Build, lint, types, migration assertions, checkout browser flow, 77-route brand checks and desktop/mobile visual review pass.
+
 | Task | Status |
 | --- | --- |
 | Reference inspection and six-width screenshots | Complete |

@@ -1,5 +1,11 @@
 # UpLove verification
 
+## UpLove identity update
+
+PASS: all 77 routes return HTTP 200 with UpLove identity and no previous brand in rendered HTML. Wordmark, metadata, placeholder contact, favicon U and social image updated. Desktop 1440px and mobile 375px screenshots reviewed; images load without horizontal overflow or browser errors. Build, lint, TypeScript, commerce assertions and asset integrity pass.
+
+PASS: legacy cart/wishlist/order migration, original receipt links, preserved historical totals and customer-entered notes, unchanged legacy backups, new UPLOVE order IDs, full browser checkout and storage-failure recovery. Legacy identifiers remain only in compatibility code and regression fixtures. Evidence: artifacts/rebrand-check.json, artifacts/rebrand-browser.json and artifacts/uplove-home-*.png.
+
 Verified 2026-11-17 against the production Next.js server in Chrome through browser-harness.
 
 ## Automated checks

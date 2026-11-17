@@ -7,6 +7,23 @@ export const provinces = ['Aceh', 'Sumatera Utara', 'Sumatera Barat', 'Riau', 'K
 export function parseJSON(value: string | null): unknown { try { return value ? JSON.parse(value) : null; } catch { return null; } }
 const record = (value: unknown): value is Record<string, unknown> => typeof value === 'object' && value !== null;
 export const sameLine = (a: CartLine, b: CartLine) => a.productId === b.productId && a.variantId === b.variantId && a.size === b.size;
+export function readShopStorage(storage: Pick<Storage, 'getItem' | 'setItem'>, key: string): string | null {
+  const current = storage.getItem(key);
+  if (current !== null) return current;
+  const previous = parseJSON(storage.getItem(key.replace(/^uplove-/, 'selara-')));
+  if (!Array.isArray(previous)) return null;
+  const productId = (id: unknown) => typeof id === 'string' ? id.replace(/^selara-(\d{3})$/, 'uplove-$1') : id;
+  const renamed = previous.map(item => {
+    if (key === storageKeys.wishlist) return productId(item);
+    if (!record(item)) return item;
+    if (key === storageKeys.cart) return { ...item, productId: productId(item.productId) };
+    return { ...item, id: typeof item.id === 'string' ? item.id.replace(/^SEL-/, 'UPLOVE-') : item.id,
+      items: Array.isArray(item.items) ? item.items.map(line => record(line) ? { ...line, productId: productId(line.productId) } : line) : item.items };
+  });
+  const value = JSON.stringify(renamed);
+  try { storage.setItem(key, value); } catch { /* Keep the legacy copy readable when storage is full. */ }
+  return value;
+}
 export function lineDetails(line: CartLine, products: Product[]) {
   const product = products.find(p => p.id === line.productId);
   const variant = product?.variants.find(v => v.id === line.variantId);
@@ -81,6 +98,6 @@ export function validateOrders(value: unknown): Order[] {
 }
 export function persistOrder(storage: Pick<Storage, 'getItem' | 'setItem'>, order: Order, products: Product[], shipping: number) {
   if (!validateOrders([order], products, shipping).length) throw new Error('Data pesanan tidak valid.');
-  const orders = validateOrders(parseJSON(storage.getItem(storageKeys.orders)), products, shipping);
+  const orders = validateOrders(parseJSON(readShopStorage(storage, storageKeys.orders)), products, shipping);
   storage.setItem(storageKeys.orders, JSON.stringify([order, ...orders.filter(previous => previous.id !== order.id)].slice(0, 100)));
 }

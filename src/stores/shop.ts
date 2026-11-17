@@ -3,7 +3,7 @@
 import { create } from 'zustand';
 import { toast } from 'sonner';
 import { products } from '@/data/products';
-import { lineDetails, parseJSON, sameLine, storageKeys, validateCart } from '@/lib/commerce';
+import { lineDetails, parseJSON, readShopStorage, sameLine, storageKeys, validateCart } from '@/lib/commerce';
 import type { CartLine } from '@/types/shop';
 
 function persist(key: string, value: unknown) {
@@ -22,8 +22,8 @@ export const useShop = create<Shop>((set, get) => ({
   hydrate: () => {
     if (get().hydrated) return;
     try {
-      const cart = validateCart(parseJSON(localStorage.getItem(storageKeys.cart)), products);
-      const savedWishlist = parseJSON(localStorage.getItem(storageKeys.wishlist));
+      const cart = validateCart(parseJSON(readShopStorage(localStorage, storageKeys.cart)), products);
+      const savedWishlist = parseJSON(readShopStorage(localStorage, storageKeys.wishlist));
       const wishlist = Array.isArray(savedWishlist) ? [...new Set(savedWishlist.filter((id): id is string => typeof id === 'string' && products.some(p => p.id === id)))] : [];
       set({ cart, wishlist, hydrated: true });
     } catch { set({ hydrated: true }); toast.error('Penyimpanan perangkat tidak dapat dibaca. Anda tetap dapat berbelanja.'); }

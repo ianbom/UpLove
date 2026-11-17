@@ -14,7 +14,7 @@ import { Sheet, SheetClose, SheetContent, SheetDescription, SheetTitle, SheetTri
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export function Wordmark({ className }: { className?: string }) {
-  return <Link href="/" aria-label={`${brand.name}, beranda`} className={cn("wordmark block text-center text-[34px]", className)}>{brand.shortName}<small>{brand.descriptor}</small></Link>;
+  return <Link href="/" aria-label={`${brand.name}, beranda`} className={cn("wordmark block text-center text-[34px]", className)}>{brand.shortName}</Link>;
 }
 
 function ProductSearch({ mobile = false, onNavigate }: { mobile?: boolean; onNavigate?: () => void }) {

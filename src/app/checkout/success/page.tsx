@@ -7,19 +7,19 @@ import { useSearchParams } from 'next/navigation';
 import { Check } from 'lucide-react';
 import { products } from '@/data/products';
 import { brand } from '@/config/brand';
-import { parseJSON, storageKeys, validateOrders } from '@/lib/commerce';
+import { parseJSON, readShopStorage, storageKeys, validateOrders } from '@/lib/commerce';
 import { formatPrice } from '@/lib/utils';
 import { CheckoutSteps } from '@/components/checkout/checkout-steps';
 import type { Order } from '@/types/shop';
 
 function Confirmation() {
   const params = useSearchParams();
-  const orderId = params.get('order');
+  const orderId = params.get('order')?.replace(/^SEL-/, 'UPLOVE-');
   const [state, setState] = useState<{ loaded: boolean; order?: Order }>({ loaded: false });
   useEffect(() => {
     let active = true;
     queueMicrotask(() => {
-      try { const order = validateOrders(parseJSON(localStorage.getItem(storageKeys.orders)), products, brand.shippingFee).find(order => order.id === orderId); if (active) setState({ loaded: true, order }); }
+      try { const order = validateOrders(parseJSON(readShopStorage(localStorage, storageKeys.orders)), products, brand.shippingFee).find(order => order.id === orderId); if (active) setState({ loaded: true, order }); }
       catch { if (active) setState({ loaded: true }); }
     });
     return () => { active = false; };
