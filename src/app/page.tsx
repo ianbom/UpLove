@@ -7,7 +7,8 @@ import { Hero } from "@/components/home/hero";
 import { ProductCard } from "@/components/product/product-card";
 import styles from "@/components/home/home.module.css";
 
-const readyToWear = products.filter(product => product.category === "ready-to-wear").slice(0, 4);
+const readyToWearCategory = products.filter(product => product.category === "ready-to-wear");
+const readyToWear = [...readyToWearCategory, ...products.filter(product => product.category !== "ready-to-wear")].slice(0, 4);
 const readyStock = products.filter(product => product.readyStock).slice(0, 4);
 
 function SeeMore({ href, label }: { href: string; label: string }) {
@@ -22,7 +23,7 @@ export default function HomePage() {
         <section className={styles.productSection} aria-labelledby="ready-to-wear-title">
           <div className={styles.sectionHeader}>
             <h2 id="ready-to-wear-title">READY-TO-WEAR</h2>
-            <SeeMore href="/category/ready-to-wear" label="Ready-to-Wear" />
+            <SeeMore href={readyToWearCategory.length >= 4 ? "/category/ready-to-wear" : "/products"} label="Ready-to-Wear" />
           </div>
           <div className={styles.productGrid}>
             {readyToWear.map(product => <ProductCard key={product.id} product={product} presentation="home-portrait" />)}

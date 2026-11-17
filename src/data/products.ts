@@ -2,30 +2,32 @@ import type { Product } from "../types/shop.ts";
 
 export const products: Product[] = [
   {
-    "id": "uplove-001",
-    "slug": "kirana-lilac-kebaya",
-    "name": "Kirana Lilac Kebaya",
+    "id": "uplove-ig-DfZcoqfktt8",
+    "slug": "laras-ivory-peplum-kebaya-dfzcoqfktt8",
+    "name": "Laras Ivory Peplum Kebaya",
     "category": "kebaya",
     "collections": [
       "aluna",
       "heritage-elegance",
       "occasion-wear",
+      "exclusive-collection",
       "ready-stock",
-      "new-arrivals",
-      "exclusive-collection"
+      "new-arrivals"
     ],
     "price": 1250000,
-    "description": "Kebaya lilac dipadukan dengan sarung bermotif cerah dan kerudung kuning. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
+    "description": "Kebaya ivory dengan peplum berlapis dan rok panjang bermotif.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-38356154.webp"
+      "/insta/DfZcoqfktt8/01.jpg",
+      "/insta/DfZcoqfktt8/02.jpg",
+      "/insta/DfZcoqfktt8/05.jpg"
     ],
     "variants": [
       {
-        "id": "kirana-lilac-kebaya-lilac",
-        "color": "Lilac",
-        "colorHex": "#AE91BD",
+        "id": "uplove-ig-DfZcoqfktt8-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
         "sizes": [
           {
             "size": "S",
@@ -45,19 +47,21 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-38356154.webp"
+          "/insta/DfZcoqfktt8/01.jpg",
+          "/insta/DfZcoqfktt8/02.jpg",
+          "/insta/DfZcoqfktt8/05.jpg"
         ]
       }
     ],
     "readyStock": true,
     "newArrival": true,
     "popularity": 1000,
-    "createdAt": "2026-11-01T00:00:00.000Z"
+    "createdAt": "2026-11-06T10:59:09Z"
   },
   {
-    "id": "uplove-002",
-    "slug": "ratih-scarlet-kebaya",
-    "name": "Ratih Scarlet Kebaya",
+    "id": "uplove-ig-DfBKgOwEmfR",
+    "slug": "kartika-noir-embroidered-kebaya-dfbkgowemfr",
+    "name": "Kartika Noir Embroidered Kebaya",
     "category": "kebaya",
     "collections": [
       "amara",
@@ -66,17 +70,22 @@ export const products: Product[] = [
       "new-arrivals"
     ],
     "price": 1400000,
-    "description": "Kebaya merah berhiaskan bordir, dipadukan dengan kerudung biru dan sarung bermotif cerah. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
+    "description": "Kebaya hitam dengan bordir kontras yang mengikuti garis depan busana.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-38446489.webp"
+      "/insta/DfBKgOwEmfR/01.jpg",
+      "/insta/DfBKgOwEmfR/02.jpg",
+      "/insta/DfBKgOwEmfR/03.jpg",
+      "/insta/DfBKgOwEmfR/04.jpg",
+      "/insta/DfBKgOwEmfR/05.jpg",
+      "/insta/DfBKgOwEmfR/06.jpg"
     ],
     "variants": [
       {
-        "id": "ratih-scarlet-kebaya-scarlet",
-        "color": "Scarlet",
-        "colorHex": "#B6252A",
+        "id": "uplove-ig-DfBKgOwEmfR-main",
+        "color": "Black",
+        "colorHex": "#292B25",
         "sizes": [
           {
             "size": "S",
@@ -96,19 +105,24 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-38446489.webp"
+          "/insta/DfBKgOwEmfR/01.jpg",
+          "/insta/DfBKgOwEmfR/02.jpg",
+          "/insta/DfBKgOwEmfR/03.jpg",
+          "/insta/DfBKgOwEmfR/04.jpg",
+          "/insta/DfBKgOwEmfR/05.jpg",
+          "/insta/DfBKgOwEmfR/06.jpg"
         ]
       }
     ],
     "readyStock": false,
     "newArrival": true,
-    "popularity": 989,
-    "createdAt": "2026-11-02T00:00:00.000Z"
+    "popularity": 999,
+    "createdAt": "2026-10-28T00:38:56Z"
   },
   {
-    "id": "uplove-003",
-    "slug": "aluna-ivory-kebaya",
-    "name": "Aluna Ivory Kebaya",
+    "id": "uplove-ig-DeveRrZCaAf",
+    "slug": "nayara-rose-tunic-kebaya-deverrzcaaf",
+    "name": "Nayara Rose Tunic Kebaya",
     "category": "kebaya",
     "collections": [
       "modern-muse",
@@ -118,23 +132,23 @@ export const products: Product[] = [
       "new-arrivals"
     ],
     "price": 1550000,
-    "description": "Kebaya brokat putih dengan selendang pinggang jingga dan rok batik bermotif. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
+    "description": "Tunik kebaya bernuansa rose dengan detail bunga dan padanan rok panjang.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-33401792.webp",
-      "/images/pexels-33402401.webp",
-      "/images/pexels-33413562.webp",
-      "/images/pexels-33472462.webp",
-      "/images/pexels-33449478.webp",
-      "/images/pexels-33475909.webp",
-      "/images/pexels-33478087.webp"
+      "/insta/DeveRrZCaAf/01.jpg",
+      "/insta/DeveRrZCaAf/02.jpg",
+      "/insta/DeveRrZCaAf/03.jpg",
+      "/insta/DeveRrZCaAf/04.jpg",
+      "/insta/DeveRrZCaAf/05.jpg",
+      "/insta/DeveRrZCaAf/06.jpg",
+      "/insta/DeveRrZCaAf/07.jpg"
     ],
     "variants": [
       {
-        "id": "aluna-ivory-kebaya-ivory",
-        "color": "Ivory",
-        "colorHex": "#F2EAE0",
+        "id": "uplove-ig-DeveRrZCaAf-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
         "sizes": [
           {
             "size": "S",
@@ -154,25 +168,89 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-33401792.webp",
-          "/images/pexels-33402401.webp",
-          "/images/pexels-33413562.webp",
-          "/images/pexels-33472462.webp",
-          "/images/pexels-33449478.webp",
-          "/images/pexels-33475909.webp",
-          "/images/pexels-33478087.webp"
+          "/insta/DeveRrZCaAf/01.jpg",
+          "/insta/DeveRrZCaAf/02.jpg",
+          "/insta/DeveRrZCaAf/03.jpg",
+          "/insta/DeveRrZCaAf/04.jpg",
+          "/insta/DeveRrZCaAf/05.jpg",
+          "/insta/DeveRrZCaAf/06.jpg",
+          "/insta/DeveRrZCaAf/07.jpg"
         ]
       }
     ],
     "readyStock": true,
     "newArrival": true,
-    "popularity": 978,
-    "createdAt": "2026-11-03T00:00:00.000Z"
+    "popularity": 998,
+    "createdAt": "2026-10-21T03:45:23Z"
   },
   {
-    "id": "uplove-004",
-    "slug": "puspita-bridal-kebaya",
-    "name": "Puspita Bridal Kebaya",
+    "id": "uplove-ig-DeojniXk1ww",
+    "slug": "aurora-pearl-off-shoulder-gown-deojnixk1ww",
+    "name": "Aurora Pearl Off Shoulder Gown",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock",
+      "new-arrivals"
+    ],
+    "price": 1690000,
+    "description": "Gaun putih mutiara dengan bahu terbuka, bodice berstruktur, dan rok panjang berdraperi.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DeojniXk1ww/01.jpg",
+      "/insta/DeojniXk1ww/02.jpg",
+      "/insta/DeojniXk1ww/03.jpg",
+      "/insta/DeojniXk1ww/04.jpg",
+      "/insta/DeojniXk1ww/05.jpg",
+      "/insta/DeojniXk1ww/06.jpg",
+      "/insta/DeojniXk1ww/07.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DeojniXk1ww-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 5
+          },
+          {
+            "size": "M",
+            "stock": 6
+          },
+          {
+            "size": "L",
+            "stock": 2
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DeojniXk1ww/01.jpg",
+          "/insta/DeojniXk1ww/02.jpg",
+          "/insta/DeojniXk1ww/03.jpg",
+          "/insta/DeojniXk1ww/04.jpg",
+          "/insta/DeojniXk1ww/05.jpg",
+          "/insta/DeojniXk1ww/06.jpg",
+          "/insta/DeojniXk1ww/07.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": true,
+    "popularity": 997,
+    "createdAt": "2026-10-18T11:17:22Z"
+  },
+  {
+    "id": "uplove-ig-DehArRZEz3W",
+    "slug": "soraya-sky-blue-layered-kebaya-deharrzez3w",
+    "name": "Soraya Sky Blue Layered Kebaya",
     "category": "kebaya",
     "collections": [
       "aluna",
@@ -182,17 +260,32 @@ export const products: Product[] = [
       "new-arrivals"
     ],
     "price": 1700000,
-    "description": "Kebaya pengantin burgundy dengan hiasan emas dan kerudung panjang berbordir. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
+    "description": "Kebaya biru lembut dengan lapisan yang mengalir dan rok panjang senada.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-39205665.webp"
+      "/insta/DehArRZEz3W/01.jpg",
+      "/insta/DehArRZEz3W/02.jpg",
+      "/insta/DehArRZEz3W/03.jpg",
+      "/insta/DehArRZEz3W/04.jpg",
+      "/insta/DehArRZEz3W/05.jpg",
+      "/insta/DehArRZEz3W/06.jpg",
+      "/insta/DehArRZEz3W/07.jpg",
+      "/insta/DehArRZEz3W/08.jpg",
+      "/insta/DehArRZEz3W/09.jpg",
+      "/insta/DehArRZEz3W/10.jpg",
+      "/insta/DehArRZEz3W/11.jpg",
+      "/insta/DehArRZEz3W/12.jpg",
+      "/insta/DehArRZEz3W/13.jpg",
+      "/insta/DehArRZEz3W/14.jpg",
+      "/insta/DehArRZEz3W/15.jpg",
+      "/insta/DehArRZEz3W/16.jpg"
     ],
     "variants": [
       {
-        "id": "puspita-bridal-kebaya-burgundy",
-        "color": "Burgundy",
-        "colorHex": "#642434",
+        "id": "uplove-ig-DehArRZEz3W-main",
+        "color": "Sky Blue",
+        "colorHex": "#A7BDCF",
         "sizes": [
           {
             "size": "S",
@@ -212,1849 +305,58 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-39205665.webp"
+          "/insta/DehArRZEz3W/01.jpg",
+          "/insta/DehArRZEz3W/02.jpg",
+          "/insta/DehArRZEz3W/03.jpg",
+          "/insta/DehArRZEz3W/04.jpg",
+          "/insta/DehArRZEz3W/05.jpg",
+          "/insta/DehArRZEz3W/06.jpg",
+          "/insta/DehArRZEz3W/07.jpg",
+          "/insta/DehArRZEz3W/08.jpg",
+          "/insta/DehArRZEz3W/09.jpg",
+          "/insta/DehArRZEz3W/10.jpg",
+          "/insta/DehArRZEz3W/11.jpg",
+          "/insta/DehArRZEz3W/12.jpg",
+          "/insta/DehArRZEz3W/13.jpg",
+          "/insta/DehArRZEz3W/14.jpg",
+          "/insta/DehArRZEz3W/15.jpg",
+          "/insta/DehArRZEz3W/16.jpg"
         ]
       }
     ],
     "readyStock": true,
     "newArrival": true,
-    "popularity": 967,
-    "createdAt": "2026-11-04T00:00:00.000Z"
+    "popularity": 996,
+    "createdAt": "2026-10-15T12:57:22Z"
   },
   {
-    "id": "uplove-005",
-    "slug": "prameswari-velvet-kebaya",
-    "name": "Prameswari Velvet Kebaya",
+    "id": "uplove-ig-DeY1GFIgRZm",
+    "slug": "safira-ivory-embellished-kebaya-dey1gfigrzm",
+    "name": "Safira Ivory Embellished Kebaya",
     "category": "kebaya",
     "collections": [
       "amara",
       "heritage-elegance",
       "occasion-wear",
+      "exclusive-collection",
       "ready-stock",
-      "new-arrivals",
-      "exclusive-collection"
+      "new-arrivals"
     ],
     "price": 1850000,
-    "description": "Kebaya beludru hitam dengan bordir emas, dipadukan dengan sarung batik bernuansa cokelat. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Beludru berhiaskan bordir emas dan kain bermotif batik.",
+    "description": "Kebaya ivory berhias detail berkilau, dipadukan dengan rok panjang yang ringan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-40670299.webp",
-      "/images/pexels-40670333.webp",
-      "/images/pexels-40670325.webp",
-      "/images/pexels-39254374.webp",
-      "/images/pexels-40670310.webp",
-      "/images/pexels-40670308.webp"
+      "/insta/DeY1GFIgRZm/01.jpg",
+      "/insta/DeY1GFIgRZm/02.jpg",
+      "/insta/DeY1GFIgRZm/03.jpg",
+      "/insta/DeY1GFIgRZm/04.jpg"
     ],
     "variants": [
       {
-        "id": "prameswari-velvet-kebaya-black-and-gold",
-        "color": "Black & Gold",
-        "colorHex": "#24201D",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 6
-          },
-          {
-            "size": "M",
-            "stock": 2
-          },
-          {
-            "size": "L",
-            "stock": 3
-          },
-          {
-            "size": "XL",
-            "stock": 4
-          }
-        ],
-        "images": [
-          "/images/pexels-40670299.webp",
-          "/images/pexels-40670333.webp",
-          "/images/pexels-40670325.webp",
-          "/images/pexels-39254374.webp",
-          "/images/pexels-40670310.webp",
-          "/images/pexels-40670308.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 956,
-    "createdAt": "2026-11-05T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-006",
-    "slug": "saraswati-embroidered-kebaya",
-    "name": "Saraswati Embroidered Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "modern-muse",
-      "heritage-elegance",
-      "occasion-wear",
-      "new-arrivals"
-    ],
-    "price": 2000000,
-    "description": "Kebaya teal berbordir dengan sarung bermotif dan kerudung merah muda. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-38203900.webp"
-    ],
-    "variants": [
-      {
-        "id": "saraswati-embroidered-kebaya-teal",
-        "color": "Teal",
-        "colorHex": "#247980",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-38203900.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": true,
-    "popularity": 945,
-    "createdAt": "2026-11-06T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-007",
-    "slug": "sekar-lace-kebaya",
-    "name": "Sekar Lace Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "aluna",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals"
-    ],
-    "price": 2150000,
-    "description": "Kebaya brokat fuchsia dengan selendang pinggang gelap dan sarung bermotif tumbuhan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-15281061.webp"
-    ],
-    "variants": [
-      {
-        "id": "sekar-lace-kebaya-fuchsia",
-        "color": "Fuchsia",
-        "colorHex": "#A02E67",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 3
-          },
-          {
-            "size": "M",
-            "stock": 4
-          },
-          {
-            "size": "L",
-            "stock": 5
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-15281061.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 934,
-    "createdAt": "2026-11-07T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-008",
-    "slug": "larasati-heritage-kebaya",
-    "name": "Larasati Heritage Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "amara",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals"
-    ],
-    "price": 2300000,
-    "description": "Kebaya brokat merah dengan selendang pinggang emas dan rok batik bunga bernuansa gelap. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-40646101.webp"
-    ],
-    "variants": [
-      {
-        "id": "larasati-heritage-kebaya-crimson",
-        "color": "Crimson",
-        "colorHex": "#A72E34",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 4
-          },
-          {
-            "size": "M",
-            "stock": 5
-          },
-          {
-            "size": "L",
-            "stock": 6
-          },
-          {
-            "size": "XL",
-            "stock": 2
-          }
-        ],
-        "images": [
-          "/images/pexels-40646101.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 923,
-    "createdAt": "2026-11-08T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-009",
-    "slug": "amara-beaded-kebaya",
-    "name": "Amara Beaded Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "modern-muse",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 1250000,
-    "description": "Kebaya brokat champagne dengan detail hias dan garis leher yang lembut. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-33431732.webp"
-    ],
-    "variants": [
-      {
-        "id": "amara-beaded-kebaya-champagne",
-        "color": "Champagne",
-        "colorHex": "#B7A48C",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 5
-          },
-          {
-            "size": "M",
-            "stock": 6
-          },
-          {
-            "size": "L",
-            "stock": 2
-          },
-          {
-            "size": "XL",
-            "stock": 3
-          }
-        ],
-        "images": [
-          "/images/pexels-33431732.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 912,
-    "createdAt": "2026-09-09T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-010",
-    "slug": "cempaka-floral-kebaya",
-    "name": "Cempaka Floral Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "aluna",
-      "heritage-elegance",
-      "occasion-wear"
-    ],
-    "price": 1400000,
-    "description": "Kebaya biru azure dengan bordir bunga cerah dan sarung bermotif senada. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-38465037.webp"
-    ],
-    "variants": [
-      {
-        "id": "cempaka-floral-kebaya-azure",
-        "color": "Azure",
-        "colorHex": "#267BB1",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-38465037.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 901,
-    "createdAt": "2026-09-10T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-011",
-    "slug": "melati-scarlet-lace-kebaya",
-    "name": "Melati Scarlet Lace Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "amara",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 1550000,
-    "description": "Kebaya brokat merah dengan lengan panjang transparan dan rok batik bermotif. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-40929910.webp"
-    ],
-    "variants": [
-      {
-        "id": "melati-scarlet-lace-kebaya-red",
-        "color": "Red",
-        "colorHex": "#B72432",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 2
-          },
-          {
-            "size": "M",
-            "stock": 3
-          },
-          {
-            "size": "L",
-            "stock": 4
-          },
-          {
-            "size": "XL",
-            "stock": 5
-          }
-        ],
-        "images": [
-          "/images/pexels-40929910.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 890,
-    "createdAt": "2026-09-11T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-012",
-    "slug": "anjani-velvet-kebaya",
-    "name": "Anjani Velvet Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "modern-muse",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 1700000,
-    "description": "Kebaya beludru burgundy dengan tepian emas dan rok batik tradisional. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Beludru berhiaskan bordir emas dan kain bermotif batik.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-37170850.webp"
-    ],
-    "variants": [
-      {
-        "id": "anjani-velvet-kebaya-wine",
-        "color": "Wine",
-        "colorHex": "#622934",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 3
-          },
-          {
-            "size": "M",
-            "stock": 4
-          },
-          {
-            "size": "L",
-            "stock": 5
-          },
-          {
-            "size": "XL",
-            "stock": 6
-          }
-        ],
-        "images": [
-          "/images/pexels-37170850.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 879,
-    "createdAt": "2026-09-12T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-013",
-    "slug": "nirmala-embroidered-kebaya",
-    "name": "Nirmala Embroidered Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "aluna",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 1850000,
-    "description": "Kebaya hijau limau berbordir bunga, berlengan transparan dengan sabuk pinggang gelap. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-36639150.webp"
-    ],
-    "variants": [
-      {
-        "id": "nirmala-embroidered-kebaya-lime",
-        "color": "Lime",
-        "colorHex": "#ABCB74",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 4
-          },
-          {
-            "size": "M",
-            "stock": 5
-          },
-          {
-            "size": "L",
-            "stock": 6
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-36639150.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 868,
-    "createdAt": "2026-09-13T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-014",
-    "slug": "dewi-noir-kebaya",
-    "name": "Dewi Noir Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "amara",
-      "heritage-elegance",
-      "occasion-wear"
-    ],
-    "price": 2000000,
-    "description": "Kebaya brokat bunga hitam dengan lengan panjang transparan dan rok bermotif senada. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-33540670.webp",
-      "/images/pexels-33540671.webp"
-    ],
-    "variants": [
-      {
-        "id": "dewi-noir-kebaya-black",
-        "color": "Black",
-        "colorHex": "#252B28",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-33540670.webp",
-          "/images/pexels-33540671.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 857,
-    "createdAt": "2026-09-14T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-015",
-    "slug": "kusuma-lace-kebaya",
-    "name": "Kusuma Lace Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "aluna",
-      "modern-muse",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2150000,
-    "description": "Kebaya brokat plum dipadukan dengan rok bermotif merah muda pucat. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-40743955.webp"
-    ],
-    "variants": [
-      {
-        "id": "kusuma-lace-kebaya-plum",
-        "color": "Plum",
-        "colorHex": "#69334C",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 6
-          },
-          {
-            "size": "M",
-            "stock": 2
-          },
-          {
-            "size": "L",
-            "stock": 3
-          },
-          {
-            "size": "XL",
-            "stock": 4
-          }
-        ],
-        "images": [
-          "/images/pexels-40743955.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 846,
-    "createdAt": "2026-09-15T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-016",
-    "slug": "seroja-lace-kebaya",
-    "name": "Seroja Lace Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "aluna",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2300000,
-    "description": "Kebaya brokat peach dengan bros berhias dan rok batik bernuansa cokelat kemerahan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-35136470.webp"
-    ],
-    "variants": [
-      {
-        "id": "seroja-lace-kebaya-peach",
-        "color": "Peach",
-        "colorHex": "#CBA589",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 2
-          },
-          {
-            "size": "M",
-            "stock": 3
-          },
-          {
-            "size": "L",
-            "stock": 4
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-35136470.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 835,
-    "createdAt": "2026-09-16T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-017",
-    "slug": "kemuning-sash-kebaya",
-    "name": "Kemuning Sash Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "aluna",
-      "amara",
-      "heritage-elegance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 1250000,
-    "description": "Kebaya brokat hijau limau pucat dengan selendang kuning menjuntai dan rok batik monokrom. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-33598378.webp"
-    ],
-    "variants": [
-      {
-        "id": "kemuning-sash-kebaya-lemon",
-        "color": "Lemon",
-        "colorHex": "#CFDC7B",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 3
-          },
-          {
-            "size": "M",
-            "stock": 4
-          },
-          {
-            "size": "L",
-            "stock": 5
-          },
-          {
-            "size": "XL",
-            "stock": 6
-          }
-        ],
-        "images": [
-          "/images/pexels-33598378.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 824,
-    "createdAt": "2026-09-01T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-018",
-    "slug": "kartika-floral-kebaya",
-    "name": "Kartika Floral Kebaya",
-    "category": "kebaya",
-    "collections": [
-      "modern-muse",
-      "heritage-elegance",
-      "occasion-wear"
-    ],
-    "price": 1400000,
-    "description": "Kebaya bernuansa gelap dengan bordir bunga berwarna dan sarung bermotif. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Brokat bermotif bunga dan kain tenun bermotif.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-32173149.webp"
-    ],
-    "variants": [
-      {
-        "id": "kartika-floral-kebaya-black-floral",
-        "color": "Black Floral",
-        "colorHex": "#302B28",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-32173149.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 813,
-    "createdAt": "2026-09-02T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-019",
-    "slug": "celeste-beaded-gown",
-    "name": "Celeste Beaded Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals"
-    ],
-    "price": 1690000,
-    "description": "Gaun hitam berpayet dengan tali bahu tipis dan rok panjang menyentuh lantai. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-14801160.webp"
-    ],
-    "variants": [
-      {
-        "id": "celeste-beaded-gown-black",
-        "color": "Black",
-        "colorHex": "#19191D",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 5
-          },
-          {
-            "size": "M",
-            "stock": 6
-          },
-          {
-            "size": "L",
-            "stock": 2
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-14801160.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 802,
-    "createdAt": "2026-11-03T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-020",
-    "slug": "aurelia-sculpted-dress",
-    "name": "Aurelia Sculpted Dress",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals"
-    ],
-    "price": 1890000,
-    "description": "Gaun pesta mauve dengan lengan brokat dan lipatan asimetris di bagian pinggul. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-15752078.webp"
-    ],
-    "variants": [
-      {
-        "id": "aurelia-sculpted-dress-mauve",
-        "color": "Mauve",
-        "colorHex": "#B6A1AC",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 6
-          },
-          {
-            "size": "M",
-            "stock": 2
-          },
-          {
-            "size": "L",
-            "stock": 3
-          },
-          {
-            "size": "XL",
-            "stock": 4
-          }
-        ],
-        "images": [
-          "/images/pexels-15752078.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 791,
-    "createdAt": "2026-11-04T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-021",
-    "slug": "lilia-evening-gown",
-    "name": "Lilia Evening Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals",
-      "exclusive-collection"
-    ],
-    "price": 2090000,
-    "description": "Gaun lilac panjang dengan siluet pas badan dan permukaan bertekstur. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-32982262.webp"
-    ],
-    "variants": [
-      {
-        "id": "lilia-evening-gown-lilac",
-        "color": "Lilac",
-        "colorHex": "#B46DC9",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 2
-          },
-          {
-            "size": "M",
-            "stock": 3
-          },
-          {
-            "size": "L",
-            "stock": 4
-          },
-          {
-            "size": "XL",
-            "stock": 5
-          }
-        ],
-        "images": [
-          "/images/pexels-32982262.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 780,
-    "createdAt": "2026-11-05T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-022",
-    "slug": "seraphine-embellished-gown",
-    "name": "Seraphine Embellished Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "new-arrivals"
-    ],
-    "price": 2290000,
-    "description": "Gaun champagne dengan garis leher terbuka berhiaskan detail dan kelim yang menjuntai. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-24705762.webp"
-    ],
-    "variants": [
-      {
-        "id": "seraphine-embellished-gown-champagne",
-        "color": "Champagne",
-        "colorHex": "#D4B998",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-24705762.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": true,
-    "popularity": 769,
-    "createdAt": "2026-11-06T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-023",
-    "slug": "elara-sweetheart-gown",
-    "name": "Elara Sweetheart Gown",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals"
-    ],
-    "price": 2490000,
-    "description": "Gaun mint dengan garis leher berbentuk hati dan rok panjang yang mengalir. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-16401526.webp"
-    ],
-    "variants": [
-      {
-        "id": "elara-sweetheart-gown-mint",
-        "color": "Mint",
-        "colorHex": "#A2D9D0",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 4
-          },
-          {
-            "size": "M",
-            "stock": 5
-          },
-          {
-            "size": "L",
-            "stock": 6
-          },
-          {
-            "size": "XL",
-            "stock": 2
-          }
-        ],
-        "images": [
-          "/images/pexels-16401526.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 758,
-    "createdAt": "2026-11-07T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-024",
-    "slug": "valentina-velvet-gown",
-    "name": "Valentina Velvet Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "new-arrivals"
-    ],
-    "price": 2690000,
-    "description": "Gaun beludru burgundy dengan bordir emas dan ekor panjang. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-19294350.webp"
-    ],
-    "variants": [
-      {
-        "id": "valentina-velvet-gown-burgundy",
-        "color": "Burgundy",
-        "colorHex": "#702737",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 5
-          },
-          {
-            "size": "M",
-            "stock": 6
-          },
-          {
-            "size": "L",
-            "stock": 2
-          },
-          {
-            "size": "XL",
-            "stock": 3
-          }
-        ],
-        "images": [
-          "/images/pexels-19294350.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": true,
-    "popularity": 747,
-    "createdAt": "2026-11-08T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-025",
-    "slug": "isadora-beaded-gown",
-    "name": "Isadora Beaded Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 2890000,
-    "description": "Gaun emas berpayet dengan garis leher rendah dan lengan panjang transparan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-30075298.webp"
-    ],
-    "variants": [
-      {
-        "id": "isadora-beaded-gown-gold",
-        "color": "Gold",
-        "colorHex": "#BBA27A",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 6
-          },
-          {
-            "size": "M",
-            "stock": 2
-          },
-          {
-            "size": "L",
-            "stock": 3
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-30075298.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 736,
-    "createdAt": "2026-09-09T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-026",
-    "slug": "noelle-strapless-dress",
-    "name": "Noelle Strapless Dress",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear"
-    ],
-    "price": 3090000,
-    "description": "Gaun hitam tanpa tali bahu dengan siluet pas badan yang sederhana. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-18586865.webp"
-    ],
-    "variants": [
-      {
-        "id": "noelle-strapless-dress-black",
-        "color": "Black",
-        "colorHex": "#22201F",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-18586865.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 725,
-    "createdAt": "2026-09-10T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-027",
-    "slug": "marina-evening-gown",
-    "name": "Marina Evening Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 3290000,
-    "description": "Gaun teal bersiluet duyung dengan bagian badan pas dan kelim melebar. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-18457620.webp"
-    ],
-    "variants": [
-      {
-        "id": "marina-evening-gown-teal",
-        "color": "Teal",
-        "colorHex": "#167E8A",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 3
-          },
-          {
-            "size": "M",
-            "stock": 4
-          },
-          {
-            "size": "L",
-            "stock": 5
-          },
-          {
-            "size": "XL",
-            "stock": 6
-          }
-        ],
-        "images": [
-          "/images/pexels-18457620.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 714,
-    "createdAt": "2026-09-11T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-028",
-    "slug": "adeline-keyhole-gown",
-    "name": "Adeline Keyhole Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 1690000,
-    "description": "Gaun berry panjang dengan kerah tinggi dan detail bukaan di bagian depan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-31649554.webp"
-    ],
-    "variants": [
-      {
-        "id": "adeline-keyhole-gown-berry",
-        "color": "Berry",
-        "colorHex": "#A73368",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 4
-          },
-          {
-            "size": "M",
-            "stock": 5
-          },
-          {
-            "size": "L",
-            "stock": 6
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-31649554.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 703,
-    "createdAt": "2026-09-12T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-029",
-    "slug": "rosalie-ruffle-gown",
-    "name": "Rosalie Ruffle Gown",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 1890000,
-    "description": "Gaun merah dengan hiasan bunga dan lapisan rok transparan berumbai. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-36707016.webp"
-    ],
-    "variants": [
-      {
-        "id": "rosalie-ruffle-gown-scarlet",
-        "color": "Scarlet",
-        "colorHex": "#C5232B",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 5
-          },
-          {
-            "size": "M",
-            "stock": 6
-          },
-          {
-            "size": "L",
-            "stock": 2
-          },
-          {
-            "size": "XL",
-            "stock": 3
-          }
-        ],
-        "images": [
-          "/images/pexels-36707016.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 692,
-    "createdAt": "2026-09-13T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-030",
-    "slug": "safira-occasion-gown",
-    "name": "Safira Occasion Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear"
-    ],
-    "price": 2090000,
-    "description": "Gaun fuchsia dengan rok mengembang dan detail berwarna perak di bagian badan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-15751040.webp"
-    ],
-    "variants": [
-      {
-        "id": "safira-occasion-gown-fuchsia",
-        "color": "Fuchsia",
-        "colorHex": "#B51E55",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-15751040.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 681,
-    "createdAt": "2026-09-14T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-031",
-    "slug": "clara-pleated-gown",
-    "name": "Clara Pleated Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2290000,
-    "description": "Gaun graphite berlengan panjang dengan lipit halus berkilau dan pinggang tegas. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-19477367.webp"
-    ],
-    "variants": [
-      {
-        "id": "clara-pleated-gown-graphite",
-        "color": "Graphite",
-        "colorHex": "#605862",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 2
-          },
-          {
-            "size": "M",
-            "stock": 3
-          },
-          {
-            "size": "L",
-            "stock": 4
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-19477367.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 670,
-    "createdAt": "2026-09-15T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-032",
-    "slug": "eveline-wrap-dress",
-    "name": "Eveline Wrap Dress",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2490000,
-    "description": "Gaun blush berlengan panjang dengan bagian depan silang dan rok yang jatuh lembut. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-15752094.webp"
-    ],
-    "variants": [
-      {
-        "id": "eveline-wrap-dress-blush",
-        "color": "Blush",
-        "colorHex": "#D7BCAC",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 3
-          },
-          {
-            "size": "M",
-            "stock": 4
-          },
-          {
-            "size": "L",
-            "stock": 5
-          },
-          {
-            "size": "XL",
-            "stock": 6
-          }
-        ],
-        "images": [
-          "/images/pexels-15752094.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 659,
-    "createdAt": "2026-09-16T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-033",
-    "slug": "estelle-beaded-gown",
-    "name": "Estelle Beaded Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 2690000,
-    "description": "Gaun dusty blue berhias dengan detail lembut di bahu dan kelim melebar. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-28115171.webp"
-    ],
-    "variants": [
-      {
-        "id": "estelle-beaded-gown-dusty-blue",
-        "color": "Dusty Blue",
-        "colorHex": "#608297",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 4
-          },
-          {
-            "size": "M",
-            "stock": 5
-          },
-          {
-            "size": "L",
-            "stock": 6
-          },
-          {
-            "size": "XL",
-            "stock": 2
-          }
-        ],
-        "images": [
-          "/images/pexels-28115171.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 648,
-    "createdAt": "2026-09-01T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-034",
-    "slug": "soleil-statement-gown",
-    "name": "Soleil Statement Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear"
-    ],
-    "price": 2890000,
-    "description": "Gaun amber dengan belahan kaki dan rok lebar yang menjuntai. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-39310982.webp",
-      "/images/pexels-39310979.webp"
-    ],
-    "variants": [
-      {
-        "id": "soleil-statement-gown-amber",
-        "color": "Amber",
-        "colorHex": "#D9A040",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-39310982.webp",
-          "/images/pexels-39310979.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 637,
-    "createdAt": "2026-09-02T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-035",
-    "slug": "odette-lace-gown",
-    "name": "Odette Lace Gown",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 3090000,
-    "description": "Gaun bernuansa bronze dengan lapisan brokat bunga hitam dan siluet ramping. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-27101259.webp"
-    ],
-    "variants": [
-      {
-        "id": "odette-lace-gown-bronze",
-        "color": "Bronze",
-        "colorHex": "#956B49",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 6
-          },
-          {
-            "size": "M",
-            "stock": 2
-          },
-          {
-            "size": "L",
-            "stock": 3
-          },
-          {
-            "size": "XL",
-            "stock": 4
-          }
-        ],
-        "images": [
-          "/images/pexels-27101259.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 626,
-    "createdAt": "2026-09-03T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-036",
-    "slug": "camille-satin-gown",
-    "name": "Camille Satin Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 3290000,
-    "description": "Gaun satin wine tanpa tali bahu dengan rok yang melebar lembut. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-34160661.webp"
-    ],
-    "variants": [
-      {
-        "id": "camille-satin-gown-wine",
-        "color": "Wine",
-        "colorHex": "#7A3037",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 2
-          },
-          {
-            "size": "M",
-            "stock": 3
-          },
-          {
-            "size": "L",
-            "stock": 4
-          },
-          {
-            "size": "XL",
-            "stock": 5
-          }
-        ],
-        "images": [
-          "/images/pexels-34160661.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 615,
-    "createdAt": "2026-09-04T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-037",
-    "slug": "florence-applique-gown",
-    "name": "Florence Applique Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 1690000,
-    "description": "Gaun merah dengan aplikasi bunga, bagian badan pas dan rok pesta mengembang. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-40980860.webp"
-    ],
-    "variants": [
-      {
-        "id": "florence-applique-gown-red",
-        "color": "Red",
-        "colorHex": "#B53031",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 3
-          },
-          {
-            "size": "M",
-            "stock": 4
-          },
-          {
-            "size": "L",
-            "stock": 5
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-40980860.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 604,
-    "createdAt": "2026-09-05T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-038",
-    "slug": "zahra-occasion-gown",
-    "name": "Zahra Occasion Gown",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear"
-    ],
-    "price": 1890000,
-    "description": "Gaun navy berlengan panjang dengan bordir berwarna perak di bagian badan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-15752106.webp"
-    ],
-    "variants": [
-      {
-        "id": "zahra-occasion-gown-navy",
-        "color": "Navy",
-        "colorHex": "#203A56",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 0
-          },
-          {
-            "size": "M",
-            "stock": 0
-          },
-          {
-            "size": "L",
-            "stock": 0
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-15752106.webp"
-        ]
-      }
-    ],
-    "readyStock": false,
-    "newArrival": false,
-    "popularity": 593,
-    "createdAt": "2026-09-06T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-039",
-    "slug": "ophelia-embroidered-gown",
-    "name": "Ophelia Embroidered Gown",
-    "category": "dress",
-    "collections": [
-      "modern-muse",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2090000,
-    "description": "Gaun hitam bermotif bordir emas dengan rok panjang yang menjuntai. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-17559250.webp"
-    ],
-    "variants": [
-      {
-        "id": "ophelia-embroidered-gown-black-and-gold",
-        "color": "Black & Gold",
-        "colorHex": "#342B23",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 5
-          },
-          {
-            "size": "M",
-            "stock": 6
-          },
-          {
-            "size": "L",
-            "stock": 2
-          },
-          {
-            "size": "XL",
-            "stock": 3
-          }
-        ],
-        "images": [
-          "/images/pexels-17559250.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 582,
-    "createdAt": "2026-09-07T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-040",
-    "slug": "arabelle-cape-gown",
-    "name": "Arabelle Cape Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2290000,
-    "description": "Gaun ivory berlengan cape dengan detail potongan dekoratif dan hiasan pinggang. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-40114262.webp"
-    ],
-    "variants": [
-      {
-        "id": "arabelle-cape-gown-ivory",
+        "id": "uplove-ig-DeY1GFIgRZm-main",
         "color": "Ivory",
-        "colorHex": "#EBE7D9",
+        "colorHex": "#E8E0D1",
         "sizes": [
           {
             "size": "S",
@@ -2070,93 +372,54 @@ export const products: Product[] = [
           },
           {
             "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-40114262.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 571,
-    "createdAt": "2026-09-08T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-041",
-    "slug": "violette-lace-gown",
-    "name": "Violette Lace Gown",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock",
-      "exclusive-collection"
-    ],
-    "price": 2490000,
-    "description": "Gaun brokat lavender berlengan panjang dengan belahan di bagian depan rok. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-31566613.webp"
-    ],
-    "variants": [
-      {
-        "id": "violette-lace-gown-lavender",
-        "color": "Lavender",
-        "colorHex": "#9F83B4",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 2
-          },
-          {
-            "size": "M",
-            "stock": 3
-          },
-          {
-            "size": "L",
             "stock": 4
-          },
-          {
-            "size": "XL",
-            "stock": 5
           }
         ],
         "images": [
-          "/images/pexels-31566613.webp"
+          "/insta/DeY1GFIgRZm/01.jpg",
+          "/insta/DeY1GFIgRZm/02.jpg",
+          "/insta/DeY1GFIgRZm/03.jpg",
+          "/insta/DeY1GFIgRZm/04.jpg"
         ]
       }
     ],
     "readyStock": true,
-    "newArrival": false,
-    "popularity": 560,
-    "createdAt": "2026-09-09T00:00:00.000Z"
+    "newArrival": true,
+    "popularity": 995,
+    "createdAt": "2026-10-12T08:42:15Z"
   },
   {
-    "id": "uplove-042",
-    "slug": "juliette-pleated-gown",
-    "name": "Juliette Pleated Gown",
-    "category": "dress",
+    "id": "uplove-ig-DdLwKfPmUDR",
+    "slug": "dewi-noir-floral-kebaya-ddlwkfpmudr",
+    "name": "Dewi Noir Floral Kebaya",
+    "category": "kebaya",
     "collections": [
       "modern-muse",
-      "timeless-romance",
-      "occasion-wear"
+      "heritage-elegance",
+      "occasion-wear",
+      "new-arrivals"
     ],
-    "price": 2690000,
-    "description": "Gaun crimson panjang dengan panel lengan berlipit yang menjuntai. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
+    "price": 2000000,
+    "description": "Kebaya hitam dengan motif bunga krem, potongan berlapis, dan padanan rok bernuansa lilac.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-36601966.webp"
+      "/insta/DdLwKfPmUDR/01.jpg",
+      "/insta/DdLwKfPmUDR/03.jpg",
+      "/insta/DdLwKfPmUDR/05.jpg",
+      "/insta/DdLwKfPmUDR/06.jpg",
+      "/insta/DdLwKfPmUDR/07.jpg",
+      "/insta/DdLwKfPmUDR/08.jpg",
+      "/insta/DdLwKfPmUDR/12.jpg",
+      "/insta/DdLwKfPmUDR/14.jpg",
+      "/insta/DdLwKfPmUDR/16.jpg",
+      "/insta/DdLwKfPmUDR/18.jpg"
     ],
     "variants": [
       {
-        "id": "juliette-pleated-gown-crimson",
-        "color": "Crimson",
-        "colorHex": "#BB2637",
+        "id": "uplove-ig-DdLwKfPmUDR-main",
+        "color": "Black",
+        "colorHex": "#292B25",
         "sizes": [
           {
             "size": "S",
@@ -2176,140 +439,53 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-36601966.webp"
+          "/insta/DdLwKfPmUDR/01.jpg",
+          "/insta/DdLwKfPmUDR/03.jpg",
+          "/insta/DdLwKfPmUDR/05.jpg",
+          "/insta/DdLwKfPmUDR/06.jpg",
+          "/insta/DdLwKfPmUDR/07.jpg",
+          "/insta/DdLwKfPmUDR/08.jpg",
+          "/insta/DdLwKfPmUDR/12.jpg",
+          "/insta/DdLwKfPmUDR/14.jpg",
+          "/insta/DdLwKfPmUDR/16.jpg",
+          "/insta/DdLwKfPmUDR/18.jpg"
         ]
       }
     ],
     "readyStock": false,
-    "newArrival": false,
-    "popularity": 549,
-    "createdAt": "2026-09-10T00:00:00.000Z"
+    "newArrival": true,
+    "popularity": 994,
+    "createdAt": "2026-09-12T10:17:38Z"
   },
   {
-    "id": "uplove-043",
-    "slug": "oceane-evening-gown",
-    "name": "Oceane Evening Gown",
-    "category": "dress",
-    "collections": [
-      "aluna",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 2890000,
-    "description": "Gaun biru laut dengan bagian badan berhias dan rok panjang yang mengalir. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-3534557.webp"
-    ],
-    "variants": [
-      {
-        "id": "oceane-evening-gown-ocean-blue",
-        "color": "Ocean Blue",
-        "colorHex": "#126487",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 4
-          },
-          {
-            "size": "M",
-            "stock": 5
-          },
-          {
-            "size": "L",
-            "stock": 6
-          },
-          {
-            "size": "XL",
-            "stock": 0
-          }
-        ],
-        "images": [
-          "/images/pexels-3534557.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 538,
-    "createdAt": "2026-09-11T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-044",
-    "slug": "lucienne-one-shoulder-gown",
-    "name": "Lucienne One Shoulder Gown",
-    "category": "dress",
-    "collections": [
-      "amara",
-      "timeless-romance",
-      "occasion-wear",
-      "ready-stock"
-    ],
-    "price": 3090000,
-    "description": "Gaun bernuansa mutiara dengan satu bahu terbuka dan draperi lembut di badan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain busana pesta dengan detail hias dan draperi.",
-    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
-    "images": [
-      "/images/pexels-31578354.webp"
-    ],
-    "variants": [
-      {
-        "id": "lucienne-one-shoulder-gown-pearl",
-        "color": "Pearl",
-        "colorHex": "#C8BDB9",
-        "sizes": [
-          {
-            "size": "S",
-            "stock": 5
-          },
-          {
-            "size": "M",
-            "stock": 6
-          },
-          {
-            "size": "L",
-            "stock": 2
-          },
-          {
-            "size": "XL",
-            "stock": 3
-          }
-        ],
-        "images": [
-          "/images/pexels-31578354.webp"
-        ]
-      }
-    ],
-    "readyStock": true,
-    "newArrival": false,
-    "popularity": 527,
-    "createdAt": "2026-09-12T00:00:00.000Z"
-  },
-  {
-    "id": "uplove-045",
-    "slug": "celine-tailored-dress",
-    "name": "Celine Tailored Dress",
+    "id": "uplove-ig-DdInisgCalT",
+    "slug": "celina-ivory-lace-set-ddinisgcalt",
+    "name": "Celina Ivory Lace Set",
     "category": "ready-to-wear",
     "collections": [
       "modern-muse",
       "occasion-wear",
+      "exclusive-collection",
       "ready-stock",
-      "exclusive-collection"
+      "new-arrivals"
     ],
     "price": 790000,
-    "description": "Gaun cobalt selutut dengan kerah tinggi dan pinggang pas badan. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain tenun bertekstur.",
+    "description": "Set ivory tanpa lengan dengan atasan renda dan rok berpotongan asimetris.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-37015070.webp"
+      "/insta/DdInisgCalT/01.jpg",
+      "/insta/DdInisgCalT/02.jpg",
+      "/insta/DdInisgCalT/03.jpg",
+      "/insta/DdInisgCalT/04.jpg",
+      "/insta/DdInisgCalT/05.jpg",
+      "/insta/DdInisgCalT/06.jpg"
     ],
     "variants": [
       {
-        "id": "celine-tailored-dress-cobalt",
-        "color": "Cobalt",
-        "colorHex": "#284EBA",
+        "id": "uplove-ig-DdInisgCalT-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
         "sizes": [
           {
             "size": "S",
@@ -2329,37 +505,342 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-37015070.webp"
+          "/insta/DdInisgCalT/01.jpg",
+          "/insta/DdInisgCalT/02.jpg",
+          "/insta/DdInisgCalT/03.jpg",
+          "/insta/DdInisgCalT/04.jpg",
+          "/insta/DdInisgCalT/05.jpg",
+          "/insta/DdInisgCalT/06.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": true,
+    "popularity": 993,
+    "createdAt": "2026-09-11T05:04:34Z"
+  },
+  {
+    "id": "uplove-ig-Dc52_OBH3h8",
+    "slug": "kirana-blush-floral-kebaya-dc52-obh3h8",
+    "name": "Kirana Blush Floral Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock",
+      "new-arrivals"
+    ],
+    "price": 2150000,
+    "description": "Kebaya blush bermotif bunga dengan potongan tunik dan padanan bernuansa ivory.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/Dc52_OBH3h8/01.jpg",
+      "/insta/Dc52_OBH3h8/02.jpg",
+      "/insta/Dc52_OBH3h8/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-Dc52_OBH3h8-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "stock": 4
+          },
+          {
+            "size": "L",
+            "stock": 5
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/Dc52_OBH3h8/01.jpg",
+          "/insta/Dc52_OBH3h8/02.jpg",
+          "/insta/Dc52_OBH3h8/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": true,
+    "popularity": 992,
+    "createdAt": "2026-09-05T11:30:56Z"
+  },
+  {
+    "id": "uplove-ig-DcGJ4nNGvlz",
+    "slug": "ratna-burgundy-velvet-kebaya-dcgj4nngvlz",
+    "name": "Ratna Burgundy Velvet Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "amara",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock",
+      "new-arrivals"
+    ],
+    "price": 2300000,
+    "description": "Kebaya burgundy bertekstur beludru yang dipadukan dengan rok batik.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DcGJ4nNGvlz/01.jpg",
+      "/insta/DcGJ4nNGvlz/02.jpg",
+      "/insta/DcGJ4nNGvlz/03.jpg",
+      "/insta/DcGJ4nNGvlz/04.jpg",
+      "/insta/DcGJ4nNGvlz/05.jpg",
+      "/insta/DcGJ4nNGvlz/06.jpg",
+      "/insta/DcGJ4nNGvlz/07.jpg",
+      "/insta/DcGJ4nNGvlz/08.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DcGJ4nNGvlz-main",
+        "color": "Burgundy",
+        "colorHex": "#6A2939",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 4
+          },
+          {
+            "size": "M",
+            "stock": 5
+          },
+          {
+            "size": "L",
+            "stock": 6
+          },
+          {
+            "size": "XL",
+            "stock": 2
+          }
+        ],
+        "images": [
+          "/insta/DcGJ4nNGvlz/01.jpg",
+          "/insta/DcGJ4nNGvlz/02.jpg",
+          "/insta/DcGJ4nNGvlz/03.jpg",
+          "/insta/DcGJ4nNGvlz/04.jpg",
+          "/insta/DcGJ4nNGvlz/05.jpg",
+          "/insta/DcGJ4nNGvlz/06.jpg",
+          "/insta/DcGJ4nNGvlz/07.jpg",
+          "/insta/DcGJ4nNGvlz/08.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": true,
+    "popularity": 991,
+    "createdAt": "2026-08-16T09:35:33Z"
+  },
+  {
+    "id": "uplove-ig-DcDrbOvj9j2",
+    "slug": "elodie-ivory-satin-dress-dcdrbovj9j2",
+    "name": "Elodie Ivory Satin Dress",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock",
+      "new-arrivals"
+    ],
+    "price": 1890000,
+    "description": "Gaun satin ivory dengan draperi lembut dan garis leher terbuka.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DcDrbOvj9j2/01.jpg",
+      "/insta/DcDrbOvj9j2/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DcDrbOvj9j2-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 6
+          },
+          {
+            "size": "M",
+            "stock": 2
+          },
+          {
+            "size": "L",
+            "stock": 3
+          },
+          {
+            "size": "XL",
+            "stock": 4
+          }
+        ],
+        "images": [
+          "/insta/DcDrbOvj9j2/01.jpg",
+          "/insta/DcDrbOvj9j2/02.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": true,
+    "popularity": 990,
+    "createdAt": "2026-08-15T10:30:55Z"
+  },
+  {
+    "id": "uplove-ig-Db72enWEiHF",
+    "slug": "noelle-black-embellished-gown-db72enweihf",
+    "name": "Noelle Black Embellished Gown",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock",
+      "new-arrivals"
+    ],
+    "price": 2090000,
+    "description": "Gaun hitam berlengan panjang dengan hiasan berkilau dan siluet memanjang.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/Db72enWEiHF/01.jpg",
+      "/insta/Db72enWEiHF/02.jpg",
+      "/insta/Db72enWEiHF/03.jpg",
+      "/insta/Db72enWEiHF/04.jpg",
+      "/insta/Db72enWEiHF/05.jpg",
+      "/insta/Db72enWEiHF/06.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-Db72enWEiHF-main",
+        "color": "Black",
+        "colorHex": "#292B25",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 5
+          }
+        ],
+        "images": [
+          "/insta/Db72enWEiHF/01.jpg",
+          "/insta/Db72enWEiHF/02.jpg",
+          "/insta/Db72enWEiHF/03.jpg",
+          "/insta/Db72enWEiHF/04.jpg",
+          "/insta/Db72enWEiHF/05.jpg",
+          "/insta/Db72enWEiHF/06.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": true,
+    "popularity": 989,
+    "createdAt": "2026-08-12T09:33:34Z"
+  },
+  {
+    "id": "uplove-ig-DbpLRPsiRed",
+    "slug": "sekar-scarlet-heritage-kebaya-dbplrpsired",
+    "name": "Sekar Scarlet Heritage Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "modern-muse",
+      "heritage-elegance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 1250000,
+    "description": "Kebaya merah dengan motif tradisional dan garis tepi berwarna lembut.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DbpLRPsiRed/01.jpg",
+      "/insta/DbpLRPsiRed/02.jpg",
+      "/insta/DbpLRPsiRed/04.jpg",
+      "/insta/DbpLRPsiRed/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DbpLRPsiRed-main",
+        "color": "Scarlet",
+        "colorHex": "#9E3A37",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 5
+          },
+          {
+            "size": "M",
+            "stock": 6
+          },
+          {
+            "size": "L",
+            "stock": 2
+          },
+          {
+            "size": "XL",
+            "stock": 3
+          }
+        ],
+        "images": [
+          "/insta/DbpLRPsiRed/01.jpg",
+          "/insta/DbpLRPsiRed/02.jpg",
+          "/insta/DbpLRPsiRed/04.jpg",
+          "/insta/DbpLRPsiRed/05.jpg"
         ]
       }
     ],
     "readyStock": true,
     "newArrival": false,
-    "popularity": 516,
-    "createdAt": "2026-09-13T00:00:00.000Z"
+    "popularity": 988,
+    "createdAt": "2026-08-05T03:29:40Z"
   },
   {
-    "id": "uplove-046",
-    "slug": "emilie-ruffle-dress",
-    "name": "Emilie Ruffle Dress",
-    "category": "ready-to-wear",
+    "id": "uplove-ig-DbS6kfjAXG6",
+    "slug": "cempaka-fuchsia-heritage-kebaya-dbs6kfjaxg6",
+    "name": "Cempaka Fuchsia Heritage Kebaya",
+    "category": "kebaya",
     "collections": [
       "aluna",
-      "modern-muse",
+      "heritage-elegance",
       "occasion-wear"
     ],
-    "price": 890000,
-    "description": "Gaun putih tanpa lengan dengan kelim berumbai dan rok yang nyaman bergerak. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain tenun bertekstur.",
+    "price": 1400000,
+    "description": "Kebaya bernuansa fuchsia dengan detail hias tradisional dan padanan kain bermotif.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-31636425.webp"
+      "/insta/DbS6kfjAXG6/01.jpg",
+      "/insta/DbS6kfjAXG6/03.jpg",
+      "/insta/DbS6kfjAXG6/05.jpg",
+      "/insta/DbS6kfjAXG6/07.jpg"
     ],
     "variants": [
       {
-        "id": "emilie-ruffle-dress-white",
-        "color": "White",
-        "colorHex": "#EFECE6",
+        "id": "uplove-ig-DbS6kfjAXG6-main",
+        "color": "Fuchsia",
+        "colorHex": "#A93B73",
         "sizes": [
           {
             "size": "S",
@@ -2379,38 +860,169 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-31636425.webp"
+          "/insta/DbS6kfjAXG6/01.jpg",
+          "/insta/DbS6kfjAXG6/03.jpg",
+          "/insta/DbS6kfjAXG6/05.jpg",
+          "/insta/DbS6kfjAXG6/07.jpg"
         ]
       }
     ],
     "readyStock": false,
     "newArrival": false,
-    "popularity": 505,
-    "createdAt": "2026-09-14T00:00:00.000Z"
+    "popularity": 987,
+    "createdAt": "2026-07-27T12:00:28Z"
   },
   {
-    "id": "uplove-047",
-    "slug": "vivienne-sheath-dress",
-    "name": "Vivienne Sheath Dress",
-    "category": "ready-to-wear",
+    "id": "uplove-ig-DbN0Abjj--x",
+    "slug": "rania-noir-heritage-kebaya-dbn0abjj-x",
+    "name": "Rania Noir Heritage Kebaya",
+    "category": "kebaya",
     "collections": [
       "amara",
-      "modern-muse",
+      "heritage-elegance",
       "occasion-wear",
       "ready-stock"
     ],
-    "price": 990000,
-    "description": "Gaun plum selutut dengan siluet pas badan dan lengan transparan bergaris. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain tenun bertekstur.",
+    "price": 1550000,
+    "description": "Kebaya hitam memanjang dengan bordir geometris kontras pada bagian depan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-19995336.webp"
+      "/insta/DbN0Abjj--x/01.jpg",
+      "/insta/DbN0Abjj--x/02.jpg",
+      "/insta/DbN0Abjj--x/03.jpg",
+      "/insta/DbN0Abjj--x/04.jpg",
+      "/insta/DbN0Abjj--x/05.jpg",
+      "/insta/DbN0Abjj--x/06.jpg"
     ],
     "variants": [
       {
-        "id": "vivienne-sheath-dress-plum",
-        "color": "Plum",
-        "colorHex": "#5D303E",
+        "id": "uplove-ig-DbN0Abjj--x-main",
+        "color": "Black",
+        "colorHex": "#292B25",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 5
+          }
+        ],
+        "images": [
+          "/insta/DbN0Abjj--x/01.jpg",
+          "/insta/DbN0Abjj--x/02.jpg",
+          "/insta/DbN0Abjj--x/03.jpg",
+          "/insta/DbN0Abjj--x/04.jpg",
+          "/insta/DbN0Abjj--x/05.jpg",
+          "/insta/DbN0Abjj--x/06.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 986,
+    "createdAt": "2026-07-25T12:26:54Z"
+  },
+  {
+    "id": "uplove-ig-DauJZC-Gu_y",
+    "slug": "clarissa-silver-lace-dress-daujzc-gu-y",
+    "name": "Clarissa Silver Lace Dress",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear"
+    ],
+    "price": 2290000,
+    "description": "Dress silver berlengan panjang dengan tekstur renda dan siluet midi.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DauJZC-Gu_y/01.jpg",
+      "/insta/DauJZC-Gu_y/02.jpg",
+      "/insta/DauJZC-Gu_y/03.jpg",
+      "/insta/DauJZC-Gu_y/04.jpg",
+      "/insta/DauJZC-Gu_y/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DauJZC-Gu_y-main",
+        "color": "Silver",
+        "colorHex": "#B8BEC4",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DauJZC-Gu_y/01.jpg",
+          "/insta/DauJZC-Gu_y/02.jpg",
+          "/insta/DauJZC-Gu_y/03.jpg",
+          "/insta/DauJZC-Gu_y/04.jpg",
+          "/insta/DauJZC-Gu_y/05.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 985,
+    "createdAt": "2026-07-13T05:18:04Z"
+  },
+  {
+    "id": "uplove-ig-DaE_A1kmR4I",
+    "slug": "alya-silver-peplum-kebaya-dae-a1kmr4i",
+    "name": "Alya Silver Peplum Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "modern-muse",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 1700000,
+    "description": "Kebaya silver dengan detail peplum dan rok panjang bertekstur lembut.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DaE_A1kmR4I/01.jpg",
+      "/insta/DaE_A1kmR4I/03.jpg",
+      "/insta/DaE_A1kmR4I/04.jpg",
+      "/insta/DaE_A1kmR4I/06.jpg",
+      "/insta/DaE_A1kmR4I/07.jpg",
+      "/insta/DaE_A1kmR4I/08.jpg",
+      "/insta/DaE_A1kmR4I/09.jpg",
+      "/insta/DaE_A1kmR4I/10.jpg",
+      "/insta/DaE_A1kmR4I/11.jpg",
+      "/insta/DaE_A1kmR4I/12.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DaE_A1kmR4I-main",
+        "color": "Silver",
+        "colorHex": "#B8BEC4",
         "sizes": [
           {
             "size": "S",
@@ -2430,37 +1042,234 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-19995336.webp"
+          "/insta/DaE_A1kmR4I/01.jpg",
+          "/insta/DaE_A1kmR4I/03.jpg",
+          "/insta/DaE_A1kmR4I/04.jpg",
+          "/insta/DaE_A1kmR4I/06.jpg",
+          "/insta/DaE_A1kmR4I/07.jpg",
+          "/insta/DaE_A1kmR4I/08.jpg",
+          "/insta/DaE_A1kmR4I/09.jpg",
+          "/insta/DaE_A1kmR4I/10.jpg",
+          "/insta/DaE_A1kmR4I/11.jpg",
+          "/insta/DaE_A1kmR4I/12.jpg"
         ]
       }
     ],
     "readyStock": true,
     "newArrival": false,
-    "popularity": 494,
-    "createdAt": "2026-09-15T00:00:00.000Z"
+    "popularity": 984,
+    "createdAt": "2026-06-27T05:38:31Z"
   },
   {
-    "id": "uplove-048",
-    "slug": "margot-long-sleeve-dress",
-    "name": "Margot Long Sleeve Dress",
-    "category": "ready-to-wear",
+    "id": "uplove-ig-DZzTN8rEkct",
+    "slug": "florence-ivory-lace-kebaya-dzztn8rekct",
+    "name": "Florence Ivory Lace Kebaya",
+    "category": "kebaya",
     "collections": [
-      "modern-muse",
+      "aluna",
+      "heritage-elegance",
       "occasion-wear",
+      "exclusive-collection",
       "ready-stock"
     ],
-    "price": 1090000,
-    "description": "Gaun aubergine berlengan panjang dengan permukaan bertekstur dan kerutan lembut di pinggang. Tersedia dalam ukuran S–XL; lihat panduan ukuran sebelum memesan.",
-    "material": "Kain tenun bertekstur.",
+    "price": 1850000,
+    "description": "Kebaya ivory berlengan panjang dengan detail renda dan padanan rok berlipit.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
     "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
     "images": [
-      "/images/pexels-15670906.webp"
+      "/insta/DZzTN8rEkct/01.jpg",
+      "/insta/DZzTN8rEkct/02.jpg",
+      "/insta/DZzTN8rEkct/03.jpg",
+      "/insta/DZzTN8rEkct/04.jpg",
+      "/insta/DZzTN8rEkct/08.jpg"
     ],
     "variants": [
       {
-        "id": "margot-long-sleeve-dress-aubergine",
-        "color": "Aubergine",
-        "colorHex": "#442A3C",
+        "id": "uplove-ig-DZzTN8rEkct-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 4
+          },
+          {
+            "size": "M",
+            "stock": 5
+          },
+          {
+            "size": "L",
+            "stock": 6
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DZzTN8rEkct/01.jpg",
+          "/insta/DZzTN8rEkct/02.jpg",
+          "/insta/DZzTN8rEkct/03.jpg",
+          "/insta/DZzTN8rEkct/04.jpg",
+          "/insta/DZzTN8rEkct/08.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 983,
+    "createdAt": "2026-06-20T08:48:45Z"
+  },
+  {
+    "id": "uplove-ig-DZmnAp4lIcZ",
+    "slug": "almira-rose-lace-kebaya-dzmnap4licz",
+    "name": "Almira Rose Lace Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "amara",
+      "heritage-elegance",
+      "occasion-wear"
+    ],
+    "price": 2000000,
+    "description": "Kebaya rose dengan renda bertekstur dan padanan rok panjang bernuansa senada.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DZmnAp4lIcZ/01.jpg",
+      "/insta/DZmnAp4lIcZ/02.jpg",
+      "/insta/DZmnAp4lIcZ/03.jpg",
+      "/insta/DZmnAp4lIcZ/04.jpg",
+      "/insta/DZmnAp4lIcZ/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DZmnAp4lIcZ-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DZmnAp4lIcZ/01.jpg",
+          "/insta/DZmnAp4lIcZ/02.jpg",
+          "/insta/DZmnAp4lIcZ/03.jpg",
+          "/insta/DZmnAp4lIcZ/04.jpg",
+          "/insta/DZmnAp4lIcZ/05.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 982,
+    "createdAt": "2026-06-15T10:31:34Z"
+  },
+  {
+    "id": "uplove-ig-DZjVI8FAeTL",
+    "slug": "nadira-champagne-lace-kebaya-dzjvi8faetl",
+    "name": "Nadira Champagne Lace Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "modern-muse",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2150000,
+    "description": "Kebaya bernuansa champagne dengan detail renda dan potongan memanjang.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DZjVI8FAeTL/01.jpg",
+      "/insta/DZjVI8FAeTL/02.jpg",
+      "/insta/DZjVI8FAeTL/03.jpg",
+      "/insta/DZjVI8FAeTL/04.jpg",
+      "/insta/DZjVI8FAeTL/05.jpg",
+      "/insta/DZjVI8FAeTL/06.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DZjVI8FAeTL-main",
+        "color": "Champagne",
+        "colorHex": "#D3C2A0",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 6
+          },
+          {
+            "size": "M",
+            "stock": 2
+          },
+          {
+            "size": "L",
+            "stock": 3
+          },
+          {
+            "size": "XL",
+            "stock": 4
+          }
+        ],
+        "images": [
+          "/insta/DZjVI8FAeTL/01.jpg",
+          "/insta/DZjVI8FAeTL/02.jpg",
+          "/insta/DZjVI8FAeTL/03.jpg",
+          "/insta/DZjVI8FAeTL/04.jpg",
+          "/insta/DZjVI8FAeTL/05.jpg",
+          "/insta/DZjVI8FAeTL/06.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 981,
+    "createdAt": "2026-06-14T03:57:41Z"
+  },
+  {
+    "id": "uplove-ig-DZG2ZR-E2oq",
+    "slug": "vivienne-noir-evening-dress-dzg2zr-e2oq",
+    "name": "Vivienne Noir Evening Dress",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2490000,
+    "description": "Dress malam hitam dengan garis leher terbuka dan potongan yang mengikuti siluet.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DZG2ZR-E2oq/01.jpg",
+      "/insta/DZG2ZR-E2oq/02.jpg",
+      "/insta/DZG2ZR-E2oq/04.jpg",
+      "/insta/DZG2ZR-E2oq/05.jpg",
+      "/insta/DZG2ZR-E2oq/06.jpg",
+      "/insta/DZG2ZR-E2oq/07.jpg",
+      "/insta/DZG2ZR-E2oq/08.jpg",
+      "/insta/DZG2ZR-E2oq/10.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DZG2ZR-E2oq-main",
+        "color": "Black",
+        "colorHex": "#292B25",
         "sizes": [
           {
             "size": "S",
@@ -2480,16 +1289,1637 @@ export const products: Product[] = [
           }
         ],
         "images": [
-          "/images/pexels-15670906.webp"
+          "/insta/DZG2ZR-E2oq/01.jpg",
+          "/insta/DZG2ZR-E2oq/02.jpg",
+          "/insta/DZG2ZR-E2oq/04.jpg",
+          "/insta/DZG2ZR-E2oq/05.jpg",
+          "/insta/DZG2ZR-E2oq/06.jpg",
+          "/insta/DZG2ZR-E2oq/07.jpg",
+          "/insta/DZG2ZR-E2oq/08.jpg",
+          "/insta/DZG2ZR-E2oq/10.jpg"
         ]
       }
     ],
     "readyStock": true,
     "newArrival": false,
-    "popularity": 483,
-    "createdAt": "2026-09-16T00:00:00.000Z"
+    "popularity": 980,
+    "createdAt": "2026-06-03T02:30:02Z"
+  },
+  {
+    "id": "uplove-ig-DX3af5nmRl3",
+    "slug": "lavina-mauve-draped-dress-dx3af5nmrl3",
+    "name": "Lavina Mauve Draped Dress",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2690000,
+    "description": "Dress mauve berlengan panjang dengan tekstur renda dan draperi pada bagian rok.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DX3af5nmRl3/01.jpg",
+      "/insta/DX3af5nmRl3/02.jpg",
+      "/insta/DX3af5nmRl3/03.jpg",
+      "/insta/DX3af5nmRl3/04.jpg",
+      "/insta/DX3af5nmRl3/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DX3af5nmRl3-main",
+        "color": "Mauve",
+        "colorHex": "#A48E9C",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 5
+          },
+          {
+            "size": "M",
+            "stock": 6
+          },
+          {
+            "size": "L",
+            "stock": 2
+          },
+          {
+            "size": "XL",
+            "stock": 3
+          }
+        ],
+        "images": [
+          "/insta/DX3af5nmRl3/01.jpg",
+          "/insta/DX3af5nmRl3/02.jpg",
+          "/insta/DX3af5nmRl3/03.jpg",
+          "/insta/DX3af5nmRl3/04.jpg",
+          "/insta/DX3af5nmRl3/05.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 979,
+    "createdAt": "2026-05-03T06:06:32Z"
+  },
+  {
+    "id": "uplove-ig-DX1gqHmEzUW",
+    "slug": "anindya-blush-lace-dress-dx1gqhmezuw",
+    "name": "Anindya Blush Lace Dress",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 2890000,
+    "description": "Dress blush dengan tekstur renda, lengan panjang, dan garis pinggang lembut.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DX1gqHmEzUW/01.jpg",
+      "/insta/DX1gqHmEzUW/03.jpg",
+      "/insta/DX1gqHmEzUW/05.jpg",
+      "/insta/DX1gqHmEzUW/06.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DX1gqHmEzUW-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 6
+          },
+          {
+            "size": "M",
+            "stock": 2
+          },
+          {
+            "size": "L",
+            "stock": 3
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DX1gqHmEzUW/01.jpg",
+          "/insta/DX1gqHmEzUW/03.jpg",
+          "/insta/DX1gqHmEzUW/05.jpg",
+          "/insta/DX1gqHmEzUW/06.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 978,
+    "createdAt": "2026-05-02T12:21:53Z"
+  },
+  {
+    "id": "uplove-ig-DXnXb86kpak",
+    "slug": "adelia-black-lace-kebaya-dxnxb86kpak",
+    "name": "Adelia Black Lace Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2300000,
+    "description": "Kebaya hitam berlengan panjang dengan tekstur renda dan siluet bersusun.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DXnXb86kpak/01.jpg",
+      "/insta/DXnXb86kpak/04.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DXnXb86kpak-main",
+        "color": "Black",
+        "colorHex": "#292B25",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DXnXb86kpak/01.jpg",
+          "/insta/DXnXb86kpak/04.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 977,
+    "createdAt": "2026-04-27T00:31:56Z"
+  },
+  {
+    "id": "uplove-ig-DXG4nFbkoBW",
+    "slug": "dahlia-rose-gold-lace-dress-dxg4nfbkobw",
+    "name": "Dahlia Rose Gold Lace Dress",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear"
+    ],
+    "price": 3090000,
+    "description": "Dress rose gold dengan tekstur renda, lengan panjang, dan potongan midi.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DXG4nFbkoBW/01.jpg",
+      "/insta/DXG4nFbkoBW/05.jpg",
+      "/insta/DXG4nFbkoBW/06.jpg",
+      "/insta/DXG4nFbkoBW/07.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DXG4nFbkoBW-main",
+        "color": "Rose Gold",
+        "colorHex": "#BE9F92",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DXG4nFbkoBW/01.jpg",
+          "/insta/DXG4nFbkoBW/05.jpg",
+          "/insta/DXG4nFbkoBW/06.jpg",
+          "/insta/DXG4nFbkoBW/07.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 976,
+    "createdAt": "2026-04-14T09:46:52Z"
+  },
+  {
+    "id": "uplove-ig-DWX_u_ADzpf",
+    "slug": "seraphina-silver-embellished-dress-dwx-u-adzpf",
+    "name": "Seraphina Silver Embellished Dress",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 3290000,
+    "description": "Dress bernuansa silver dengan detail hias menyeluruh dan siluet midi.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DWX_u_ADzpf/01.jpg",
+      "/insta/DWX_u_ADzpf/02.jpg",
+      "/insta/DWX_u_ADzpf/03.jpg",
+      "/insta/DWX_u_ADzpf/04.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DWX_u_ADzpf-main",
+        "color": "Silver",
+        "colorHex": "#B8BEC4",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "stock": 4
+          },
+          {
+            "size": "L",
+            "stock": 5
+          },
+          {
+            "size": "XL",
+            "stock": 6
+          }
+        ],
+        "images": [
+          "/insta/DWX_u_ADzpf/01.jpg",
+          "/insta/DWX_u_ADzpf/02.jpg",
+          "/insta/DWX_u_ADzpf/03.jpg",
+          "/insta/DWX_u_ADzpf/04.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 975,
+    "createdAt": "2026-03-27T04:44:49Z"
+  },
+  {
+    "id": "uplove-ig-DVvktO_ExHp",
+    "slug": "estelle-black-off-shoulder-gown-dvvkto-exhp",
+    "name": "Estelle Black Off Shoulder Gown",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 1690000,
+    "description": "Gaun hitam dengan bahu terbuka, bodice berstruktur, dan rok panjang.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DVvktO_ExHp/01.jpg",
+      "/insta/DVvktO_ExHp/02.jpg",
+      "/insta/DVvktO_ExHp/03.jpg",
+      "/insta/DVvktO_ExHp/04.jpg",
+      "/insta/DVvktO_ExHp/05.jpg",
+      "/insta/DVvktO_ExHp/06.jpg",
+      "/insta/DVvktO_ExHp/07.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DVvktO_ExHp-main",
+        "color": "Black",
+        "colorHex": "#292B25",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 4
+          },
+          {
+            "size": "M",
+            "stock": 5
+          },
+          {
+            "size": "L",
+            "stock": 6
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DVvktO_ExHp/01.jpg",
+          "/insta/DVvktO_ExHp/02.jpg",
+          "/insta/DVvktO_ExHp/03.jpg",
+          "/insta/DVvktO_ExHp/04.jpg",
+          "/insta/DVvktO_ExHp/05.jpg",
+          "/insta/DVvktO_ExHp/06.jpg",
+          "/insta/DVvktO_ExHp/07.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 974,
+    "createdAt": "2026-03-11T11:59:01Z"
+  },
+  {
+    "id": "uplove-ig-DUp2sgfj905",
+    "slug": "puspa-golden-blush-kebaya-dup2sgfj905",
+    "name": "Puspa Golden Blush Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "amara",
+      "heritage-elegance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 1250000,
+    "description": "Kebaya bernuansa keemasan dengan detail bunga dan padanan kain bernuansa blush.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DUp2sgfj905/01.jpg",
+      "/insta/DUp2sgfj905/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DUp2sgfj905-main",
+        "color": "Gold",
+        "colorHex": "#B69A62",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "stock": 4
+          },
+          {
+            "size": "L",
+            "stock": 5
+          },
+          {
+            "size": "XL",
+            "stock": 6
+          }
+        ],
+        "images": [
+          "/insta/DUp2sgfj905/01.jpg",
+          "/insta/DUp2sgfj905/02.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 973,
+    "createdAt": "2026-02-12T10:09:22Z"
+  },
+  {
+    "id": "uplove-ig-DT9iEDLCXiv",
+    "slug": "pramesa-burgundy-floral-kebaya-dt9iedlcxiv",
+    "name": "Pramesa Burgundy Floral Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "modern-muse",
+      "heritage-elegance",
+      "occasion-wear"
+    ],
+    "price": 1400000,
+    "description": "Kebaya burgundy bermotif bunga dengan lengan panjang dan rok senada.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DT9iEDLCXiv/01.jpg",
+      "/insta/DT9iEDLCXiv/02.jpg",
+      "/insta/DT9iEDLCXiv/04.jpg",
+      "/insta/DT9iEDLCXiv/05.jpg",
+      "/insta/DT9iEDLCXiv/07.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DT9iEDLCXiv-main",
+        "color": "Burgundy",
+        "colorHex": "#6A2939",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DT9iEDLCXiv/01.jpg",
+          "/insta/DT9iEDLCXiv/02.jpg",
+          "/insta/DT9iEDLCXiv/04.jpg",
+          "/insta/DT9iEDLCXiv/05.jpg",
+          "/insta/DT9iEDLCXiv/07.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 972,
+    "createdAt": "2026-01-26T05:02:30Z"
+  },
+  {
+    "id": "uplove-ig-DTpkphekoxi",
+    "slug": "aluna-ivory-lace-gown-dtpkphekoxi",
+    "name": "Aluna Ivory Lace Gown",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 1890000,
+    "description": "Gaun ivory panjang dengan detail renda dan siluet rok yang mengembang.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DTpkphekoxi/01.jpg",
+      "/insta/DTpkphekoxi/02.jpg",
+      "/insta/DTpkphekoxi/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DTpkphekoxi-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 5
+          },
+          {
+            "size": "M",
+            "stock": 6
+          },
+          {
+            "size": "L",
+            "stock": 2
+          },
+          {
+            "size": "XL",
+            "stock": 3
+          }
+        ],
+        "images": [
+          "/insta/DTpkphekoxi/01.jpg",
+          "/insta/DTpkphekoxi/02.jpg",
+          "/insta/DTpkphekoxi/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 971,
+    "createdAt": "2026-01-18T11:00:00Z"
+  },
+  {
+    "id": "uplove-ig-DTXcDT7jxco",
+    "slug": "camille-champagne-strapless-gown-dtxcdt7jxco",
+    "name": "Camille Champagne Strapless Gown",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear"
+    ],
+    "price": 2090000,
+    "description": "Gaun champagne tanpa tali dengan bodice bertekstur dan rok panjang yang ringan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DTXcDT7jxco/01.jpg",
+      "/insta/DTXcDT7jxco/02.jpg",
+      "/insta/DTXcDT7jxco/03.jpg",
+      "/insta/DTXcDT7jxco/04.jpg",
+      "/insta/DTXcDT7jxco/05.jpg",
+      "/insta/DTXcDT7jxco/06.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DTXcDT7jxco-main",
+        "color": "Champagne",
+        "colorHex": "#D3C2A0",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DTXcDT7jxco/01.jpg",
+          "/insta/DTXcDT7jxco/02.jpg",
+          "/insta/DTXcDT7jxco/03.jpg",
+          "/insta/DTXcDT7jxco/04.jpg",
+          "/insta/DTXcDT7jxco/05.jpg",
+          "/insta/DTXcDT7jxco/06.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 970,
+    "createdAt": "2026-01-11T09:58:50Z"
+  },
+  {
+    "id": "uplove-ig-DRwz6Fkki_b",
+    "slug": "opaline-champagne-tulle-gown-drwz6fkki-b",
+    "name": "Opaline Champagne Tulle Gown",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2290000,
+    "description": "Gaun champagne dengan bodice bertekstur dan lapisan rok tulle yang lembut.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DRwz6Fkki_b/01.jpg",
+      "/insta/DRwz6Fkki_b/02.jpg",
+      "/insta/DRwz6Fkki_b/03.jpg",
+      "/insta/DRwz6Fkki_b/04.jpg",
+      "/insta/DRwz6Fkki_b/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DRwz6Fkki_b-main",
+        "color": "Champagne",
+        "colorHex": "#D3C2A0",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DRwz6Fkki_b/01.jpg",
+          "/insta/DRwz6Fkki_b/02.jpg",
+          "/insta/DRwz6Fkki_b/03.jpg",
+          "/insta/DRwz6Fkki_b/04.jpg",
+          "/insta/DRwz6Fkki_b/05.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 969,
+    "createdAt": "2025-12-02T13:25:31Z"
+  },
+  {
+    "id": "uplove-ig-DOaN_VukfGl",
+    "slug": "ameera-pearl-tunic-kebaya-doan-vukfgl",
+    "name": "Ameera Pearl Tunic Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "heritage-elegance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 1250000,
+    "description": "Tunik berwarna mutiara dengan tekstur bunga dan potongan lurus yang lembut.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DOaN_VukfGl/01.jpg",
+      "/insta/DOaN_VukfGl/02.jpg",
+      "/insta/DOaN_VukfGl/03.jpg",
+      "/insta/DOaN_VukfGl/04.jpg",
+      "/insta/DOaN_VukfGl/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DOaN_VukfGl-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DOaN_VukfGl/01.jpg",
+          "/insta/DOaN_VukfGl/02.jpg",
+          "/insta/DOaN_VukfGl/03.jpg",
+          "/insta/DOaN_VukfGl/04.jpg",
+          "/insta/DOaN_VukfGl/05.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 968,
+    "createdAt": "2025-09-10T05:16:43Z"
+  },
+  {
+    "id": "uplove-ig-DOFmU52DxMQ",
+    "slug": "padma-rose-embroidered-kebaya-dofmu52dxmq",
+    "name": "Padma Rose Embroidered Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "amara",
+      "heritage-elegance",
+      "occasion-wear"
+    ],
+    "price": 1400000,
+    "description": "Kebaya rose tanpa lengan dengan bordir bunga dan padanan kain kuning bermotif.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DOFmU52DxMQ/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DOFmU52DxMQ-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DOFmU52DxMQ/01.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 967,
+    "createdAt": "2025-09-02T05:05:19Z"
+  },
+  {
+    "id": "uplove-ig-DNXJ2ovTqHV",
+    "slug": "amelie-sage-layered-dress-dnxj2ovtqhv",
+    "name": "Amelie Sage Layered Dress",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2490000,
+    "description": "Dress sage dengan tekstur renda dan lapisan rok yang jatuh asimetris.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DNXJ2ovTqHV/01.jpg",
+      "/insta/DNXJ2ovTqHV/02.jpg",
+      "/insta/DNXJ2ovTqHV/03.jpg",
+      "/insta/DNXJ2ovTqHV/04.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DNXJ2ovTqHV-main",
+        "color": "Sage",
+        "colorHex": "#A5AE9B",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "stock": 4
+          },
+          {
+            "size": "L",
+            "stock": 5
+          },
+          {
+            "size": "XL",
+            "stock": 6
+          }
+        ],
+        "images": [
+          "/insta/DNXJ2ovTqHV/01.jpg",
+          "/insta/DNXJ2ovTqHV/02.jpg",
+          "/insta/DNXJ2ovTqHV/03.jpg",
+          "/insta/DNXJ2ovTqHV/04.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 966,
+    "createdAt": "2025-08-15T04:11:27Z"
+  },
+  {
+    "id": "uplove-ig-DM7vmgLy4QQ",
+    "slug": "naomi-champagne-lace-dress-dm7vmgly4qq",
+    "name": "Naomi Champagne Lace Dress",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 2690000,
+    "description": "Dress champagne dengan detail renda, lengan pendek, dan potongan midi yang ringan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DM7vmgLy4QQ/01.jpg",
+      "/insta/DM7vmgLy4QQ/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DM7vmgLy4QQ-main",
+        "color": "Champagne",
+        "colorHex": "#D3C2A0",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 4
+          },
+          {
+            "size": "M",
+            "stock": 5
+          },
+          {
+            "size": "L",
+            "stock": 6
+          },
+          {
+            "size": "XL",
+            "stock": 2
+          }
+        ],
+        "images": [
+          "/insta/DM7vmgLy4QQ/01.jpg",
+          "/insta/DM7vmgLy4QQ/02.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 965,
+    "createdAt": "2025-08-04T12:42:34Z"
+  },
+  {
+    "id": "uplove-ig-DMwnfOaz5I0",
+    "slug": "maharani-mauve-embellished-kebaya-dmwnfoaz5i0",
+    "name": "Maharani Mauve Embellished Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "modern-muse",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 1550000,
+    "description": "Kebaya mauve memanjang dengan hiasan bunga dan padanan rok bernuansa champagne.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DMwnfOaz5I0/01.jpg",
+      "/insta/DMwnfOaz5I0/02.jpg",
+      "/insta/DMwnfOaz5I0/03.jpg",
+      "/insta/DMwnfOaz5I0/04.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DMwnfOaz5I0-main",
+        "color": "Mauve",
+        "colorHex": "#A48E9C",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 4
+          },
+          {
+            "size": "M",
+            "stock": 5
+          },
+          {
+            "size": "L",
+            "stock": 6
+          },
+          {
+            "size": "XL",
+            "stock": 2
+          }
+        ],
+        "images": [
+          "/insta/DMwnfOaz5I0/01.jpg",
+          "/insta/DMwnfOaz5I0/02.jpg",
+          "/insta/DMwnfOaz5I0/03.jpg",
+          "/insta/DMwnfOaz5I0/04.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 964,
+    "createdAt": "2025-07-31T05:00:00Z"
+  },
+  {
+    "id": "uplove-ig-DK8qWF1SyvK",
+    "slug": "rosalie-lilac-halter-dress-dk8qwf1syvk",
+    "name": "Rosalie Lilac Halter Dress",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear"
+    ],
+    "price": 2890000,
+    "description": "Dress lilac dengan garis leher halter, tekstur renda, dan rok midi berlapis.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DK8qWF1SyvK/01.jpg",
+      "/insta/DK8qWF1SyvK/02.jpg",
+      "/insta/DK8qWF1SyvK/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DK8qWF1SyvK-main",
+        "color": "Lilac",
+        "colorHex": "#B7A6C4",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DK8qWF1SyvK/01.jpg",
+          "/insta/DK8qWF1SyvK/02.jpg",
+          "/insta/DK8qWF1SyvK/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 963,
+    "createdAt": "2025-06-16T04:13:05Z"
+  },
+  {
+    "id": "uplove-ig-DK02hYEyEQV",
+    "slug": "kinanti-burgundy-long-kebaya-dk02hyeyeqv",
+    "name": "Kinanti Burgundy Long Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 1700000,
+    "description": "Kebaya burgundy memanjang dengan lapisan ringan dan padanan rok bermotif.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DK02hYEyEQV/01.jpg",
+      "/insta/DK02hYEyEQV/02.jpg",
+      "/insta/DK02hYEyEQV/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DK02hYEyEQV-main",
+        "color": "Burgundy",
+        "colorHex": "#6A2939",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 5
+          },
+          {
+            "size": "M",
+            "stock": 6
+          },
+          {
+            "size": "L",
+            "stock": 2
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DK02hYEyEQV/01.jpg",
+          "/insta/DK02hYEyEQV/02.jpg",
+          "/insta/DK02hYEyEQV/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 962,
+    "createdAt": "2025-06-13T03:25:34Z"
+  },
+  {
+    "id": "uplove-ig-DKlyZsZyGak",
+    "slug": "lucienne-sage-halter-dress-dklyzszygak",
+    "name": "Lucienne Sage Halter Dress",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 3090000,
+    "description": "Dress sage tanpa lengan dengan detail renda dan garis leher tinggi.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DKlyZsZyGak/01.jpg",
+      "/insta/DKlyZsZyGak/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DKlyZsZyGak-main",
+        "color": "Sage",
+        "colorHex": "#A5AE9B",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 6
+          },
+          {
+            "size": "M",
+            "stock": 2
+          },
+          {
+            "size": "L",
+            "stock": 3
+          },
+          {
+            "size": "XL",
+            "stock": 4
+          }
+        ],
+        "images": [
+          "/insta/DKlyZsZyGak/01.jpg",
+          "/insta/DKlyZsZyGak/02.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 961,
+    "createdAt": "2025-06-07T07:00:57Z"
+  },
+  {
+    "id": "uplove-ig-DKYab3uoJ3K",
+    "slug": "arabelle-taupe-halter-dress-dkyab3uoj3k",
+    "name": "Arabelle Taupe Halter Dress",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 3290000,
+    "description": "Dress taupe dengan garis leher halter, detail renda, dan rok asimetris.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DKYab3uoJ3K/01.jpg",
+      "/insta/DKYab3uoJ3K/02.jpg",
+      "/insta/DKYab3uoJ3K/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DKYab3uoJ3K-main",
+        "color": "Taupe",
+        "colorHex": "#AB9A91",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 5
+          }
+        ],
+        "images": [
+          "/insta/DKYab3uoJ3K/01.jpg",
+          "/insta/DKYab3uoJ3K/02.jpg",
+          "/insta/DKYab3uoJ3K/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 960,
+    "createdAt": "2025-06-02T02:21:24Z"
+  },
+  {
+    "id": "uplove-ig-DKTMK02PXj0",
+    "slug": "zahira-rose-draped-kebaya-dktmk02pxj0",
+    "name": "Zahira Rose Draped Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "amara",
+      "heritage-elegance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 1850000,
+    "description": "Kebaya rose dengan lapisan panjang, detail motif, dan draperi ringan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DKTMK02PXj0/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DKTMK02PXj0-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 6
+          },
+          {
+            "size": "M",
+            "stock": 2
+          },
+          {
+            "size": "L",
+            "stock": 3
+          },
+          {
+            "size": "XL",
+            "stock": 4
+          }
+        ],
+        "images": [
+          "/insta/DKTMK02PXj0/01.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 959,
+    "createdAt": "2025-05-31T01:40:32Z"
+  },
+  {
+    "id": "uplove-ig-DKHfD2MP-Cz",
+    "slug": "kamala-sage-draped-kebaya-dkhfd2mp-cz",
+    "name": "Kamala Sage Draped Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "modern-muse",
+      "heritage-elegance",
+      "occasion-wear"
+    ],
+    "price": 2000000,
+    "description": "Kebaya sage dengan draperi lembut, lengan panjang, dan detail ikat di pinggang.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DKHfD2MP-Cz/01.jpg",
+      "/insta/DKHfD2MP-Cz/02.jpg",
+      "/insta/DKHfD2MP-Cz/03.jpg",
+      "/insta/DKHfD2MP-Cz/04.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DKHfD2MP-Cz-main",
+        "color": "Sage",
+        "colorHex": "#A5AE9B",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DKHfD2MP-Cz/01.jpg",
+          "/insta/DKHfD2MP-Cz/02.jpg",
+          "/insta/DKHfD2MP-Cz/03.jpg",
+          "/insta/DKHfD2MP-Cz/04.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 958,
+    "createdAt": "2025-05-26T12:34:44Z"
+  },
+  {
+    "id": "uplove-ig-DI_RjgzPZ3J",
+    "slug": "indira-pistachio-cape-kebaya-di-rjgzpz3j",
+    "name": "Indira Pistachio Cape Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "aluna",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2150000,
+    "description": "Kebaya hijau pistachio dengan lapisan cape ringan dan rok panjang senada.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DI_RjgzPZ3J/01.jpg",
+      "/insta/DI_RjgzPZ3J/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DI_RjgzPZ3J-main",
+        "color": "Sage",
+        "colorHex": "#A5AE9B",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "stock": 4
+          },
+          {
+            "size": "L",
+            "stock": 5
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DI_RjgzPZ3J/01.jpg",
+          "/insta/DI_RjgzPZ3J/02.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 957,
+    "createdAt": "2025-04-28T11:31:24Z"
+  },
+  {
+    "id": "uplove-ig-DI0coxEPVND",
+    "slug": "celine-silver-off-shoulder-dress-di0coxepvnd",
+    "name": "Celine Silver Off Shoulder Dress",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 1690000,
+    "description": "Dress silver dengan bahu terbuka, detail renda, dan rok midi yang ringan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DI0coxEPVND/01.jpg",
+      "/insta/DI0coxEPVND/02.jpg",
+      "/insta/DI0coxEPVND/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DI0coxEPVND-main",
+        "color": "Silver",
+        "colorHex": "#B8BEC4",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 3
+          },
+          {
+            "size": "M",
+            "stock": 4
+          },
+          {
+            "size": "L",
+            "stock": 5
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DI0coxEPVND/01.jpg",
+          "/insta/DI0coxEPVND/02.jpg",
+          "/insta/DI0coxEPVND/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 956,
+    "createdAt": "2025-04-24T06:36:35Z"
+  },
+  {
+    "id": "uplove-ig-DIf13ARP4yG",
+    "slug": "melati-powder-blue-floral-kebaya-dif13arp4yg",
+    "name": "Melati Powder Blue Floral Kebaya",
+    "category": "kebaya",
+    "collections": [
+      "amara",
+      "heritage-elegance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2300000,
+    "description": "Tunik biru lembut dengan motif bunga dan lengan ringan bernuansa transparan.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DIf13ARP4yG/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DIf13ARP4yG-main",
+        "color": "Sky Blue",
+        "colorHex": "#A7BDCF",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 4
+          },
+          {
+            "size": "M",
+            "stock": 5
+          },
+          {
+            "size": "L",
+            "stock": 6
+          },
+          {
+            "size": "XL",
+            "stock": 2
+          }
+        ],
+        "images": [
+          "/insta/DIf13ARP4yG/01.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 955,
+    "createdAt": "2025-04-16T06:32:56Z"
+  },
+  {
+    "id": "uplove-ig-DGCGO6iStHq",
+    "slug": "fleur-blush-pleated-dress-dgcgo6isthq",
+    "name": "Fleur Blush Pleated Dress",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear"
+    ],
+    "price": 1890000,
+    "description": "Dress blush satu bahu dengan detail lipit dan rok panjang asimetris.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DGCGO6iStHq/01.jpg",
+      "/insta/DGCGO6iStHq/02.jpg",
+      "/insta/DGCGO6iStHq/03.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DGCGO6iStHq-main",
+        "color": "Dusty Pink",
+        "colorHex": "#B58B96",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DGCGO6iStHq/01.jpg",
+          "/insta/DGCGO6iStHq/02.jpg",
+          "/insta/DGCGO6iStHq/03.jpg"
+        ]
+      }
+    ],
+    "readyStock": false,
+    "newArrival": false,
+    "popularity": 954,
+    "createdAt": "2025-02-14T00:16:00Z"
+  },
+  {
+    "id": "uplove-ig-DFKGQdAP29_",
+    "slug": "valerie-slate-beaded-dress-dfkgqdap29",
+    "name": "Valerie Slate Beaded Dress",
+    "category": "dress",
+    "collections": [
+      "modern-muse",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2090000,
+    "description": "Dress abu-abu tanpa lengan dengan detail hias dan siluet panjang yang ramping.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DFKGQdAP29_/01.jpg",
+      "/insta/DFKGQdAP29_/02.jpg",
+      "/insta/DFKGQdAP29_/03.jpg",
+      "/insta/DFKGQdAP29_/04.jpg",
+      "/insta/DFKGQdAP29_/05.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DFKGQdAP29_-main",
+        "color": "Slate",
+        "colorHex": "#7D8290",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 5
+          },
+          {
+            "size": "M",
+            "stock": 6
+          },
+          {
+            "size": "L",
+            "stock": 2
+          },
+          {
+            "size": "XL",
+            "stock": 3
+          }
+        ],
+        "images": [
+          "/insta/DFKGQdAP29_/01.jpg",
+          "/insta/DFKGQdAP29_/02.jpg",
+          "/insta/DFKGQdAP29_/03.jpg",
+          "/insta/DFKGQdAP29_/04.jpg",
+          "/insta/DFKGQdAP29_/05.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 953,
+    "createdAt": "2025-01-23T06:18:45Z"
+  },
+  {
+    "id": "uplove-ig-DEyMlOvT9WM",
+    "slug": "isadora-blue-cape-dress-deymlovt9wm",
+    "name": "Isadora Blue Cape Dress",
+    "category": "dress",
+    "collections": [
+      "aluna",
+      "timeless-romance",
+      "occasion-wear",
+      "ready-stock"
+    ],
+    "price": 2290000,
+    "description": "Dress biru bertekstur renda dengan lapisan cape dan potongan midi.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DEyMlOvT9WM/01.jpg",
+      "/insta/DEyMlOvT9WM/02.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DEyMlOvT9WM-main",
+        "color": "Sky Blue",
+        "colorHex": "#A7BDCF",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 6
+          },
+          {
+            "size": "M",
+            "stock": 2
+          },
+          {
+            "size": "L",
+            "stock": 3
+          },
+          {
+            "size": "XL",
+            "stock": 0
+          }
+        ],
+        "images": [
+          "/insta/DEyMlOvT9WM/01.jpg",
+          "/insta/DEyMlOvT9WM/02.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 952,
+    "createdAt": "2025-01-13T23:32:14Z"
+  },
+  {
+    "id": "uplove-ig-DEEV_hYyPoi",
+    "slug": "evelina-ivory-ruffle-gown-deev-hyypoi",
+    "name": "Evelina Ivory Ruffle Gown",
+    "category": "dress",
+    "collections": [
+      "amara",
+      "timeless-romance",
+      "occasion-wear",
+      "exclusive-collection",
+      "ready-stock"
+    ],
+    "price": 2490000,
+    "description": "Gaun ivory dengan renda dan detail ruffle yang memberi volume pada rok.",
+    "material": "Komposisi bahan belum tersedia. Lihat detail busana pada foto dan panduan ukuran.",
+    "care": "Disarankan cuci kering profesional. Simpan dengan gantungan berlapis, jauh dari sinar matahari langsung.",
+    "images": [
+      "/insta/DEEV_hYyPoi/01.jpg"
+    ],
+    "variants": [
+      {
+        "id": "uplove-ig-DEEV_hYyPoi-main",
+        "color": "Ivory",
+        "colorHex": "#E8E0D1",
+        "sizes": [
+          {
+            "size": "S",
+            "stock": 2
+          },
+          {
+            "size": "M",
+            "stock": 3
+          },
+          {
+            "size": "L",
+            "stock": 4
+          },
+          {
+            "size": "XL",
+            "stock": 5
+          }
+        ],
+        "images": [
+          "/insta/DEEV_hYyPoi/01.jpg"
+        ]
+      }
+    ],
+    "readyStock": true,
+    "newArrival": false,
+    "popularity": 951,
+    "createdAt": "2024-12-27T04:09:24Z"
   }
 ];
 
 export const getProduct = (slug: string): Product | undefined => products.find((product) => product.slug === slug);
-

@@ -1,5 +1,15 @@
 # UpLove verification
 
+## Instagram catalogue import
+
+Implemented 2026-11-17: 50 visually reviewed @uplove posts, 227 selected model/product photographs, 50 separate `public/insta/<shortcode>/` folders. Categories: 26 kebaya, 23 dresses, one ready-to-wear set. Every selected carousel was reviewed; mixed garments, graphics, collages, group portraits and unrelated slides were excluded. Covers and full galleries use local files. JPEG bytes are retained; WebP and MPO sources are normalized to JPEG at original dimensions. No source captions, signed CDN URLs, contacts or sessions appear in the public manifest or photo folders.
+
+PASS: importer self-check; exact count, unique IDs/slugs, manifest/gallery correspondence, every JPEG decoded, stock consistency and all 67 retained Pexels files. Commerce assertions cover an actual Instagram product checkout, underscore-containing source IDs, unavailable previous cart IDs and historical receipt preservation. ESLint, TypeScript and production build pass; 70 static outputs generated. Long desktop thumbnail lists scroll within the main photograph height.
+
+PASS: production HTTP checks cover 76 routes including all 50 products, catalogue name search and ten products on the third pagination page. All 61 tested images (every cover plus converted source images) pass through the Next.js optimizer. The final build was rechecked on port 3000, including the 16-slide gallery markup. Evidence: `artifacts/instagram-http-verification.json`. All 60 browser assertion expressions also pass JavaScript syntax parsing.
+
+Browser interaction and six-width screenshot checks have not been rerun for this import: Chrome remote-debugging permission is pending. `tests/browser-flow.py` now selects fixtures from the active catalogue and includes the longest carousel and Instagram receipt image. Earlier browser/visual results below describe previous catalogue versions and are not evidence for the current import.
+
 ## Homepage redesign
 
 Verified 2026-11-17 against the production server at `http://localhost:3000` using browser-harness. Layout follows the supplied `homee.png`: static full-width hero, four ready-to-wear products, asymmetric two-photo editorial, four ready-stock products. Existing UpLove photography, Olive–Ivory tokens, navigation and footer remain. Phones use two product columns as requested.

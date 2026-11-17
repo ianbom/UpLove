@@ -5,6 +5,13 @@ from pathlib import Path
 
 BASE = 'http://localhost:3001'
 OUT = Path('E:/Webgrow/Uplove/artifacts')
+source = Path('src/data/products.ts').read_text(encoding='utf-8-sig')
+PRODUCTS = json.JSONDecoder().raw_decode(source.split('export const products: Product[] = ', 1)[1])[0]
+FIXTURE = next(p for p in PRODUCTS if len(p['images']) >= 2 and any(s['size'] == 'M' and s['stock'] >= 2 for s in p['variants'][0]['sizes']))
+NAME = FIXTURE['name']
+COLOR = FIXTURE['variants'][0]['color']
+PRODUCT_PATH = '/products/' + FIXTURE['slug']
+FILTER_COLOR = next(v['color'] for p in PRODUCTS for v in p['variants'] if any(s['size'] == 'XL' and s['stock'] > 0 for s in v['sizes']))
 
 def click(role, name, exact=True):
     nodes = cdp('Accessibility.getFullAXTree')['nodes']
@@ -56,9 +63,9 @@ def run(phase):
         go('/products')
         check('document.querySelectorAll("article").length===20', '20 products per page')
         snapshot('products-1440')
-        fill_input('#catalogue-search', 'Nirmala')
+        fill_input('#catalogue-search', NAME)
         press_key('Enter'); time.sleep(.6)
-        check('document.querySelectorAll("article").length===1&&document.querySelector("article h3").textContent.includes("Nirmala")', 'catalogue search')
+        check('document.querySelectorAll("article").length===1&&document.querySelector("article h3").textContent.includes('+json.dumps(NAME)+')', 'catalogue search')
         fill_input('#catalogue-search', 'no-such-garment')
         press_key('Enter'); time.sleep(.6)
         check('document.querySelectorAll("article").length===0&&document.body.innerText.includes("Belum ada pilihan")', 'search empty state')
@@ -69,8 +76,8 @@ def run(phase):
         print('PASS sorting price ascending',flush=True)
         select('Filter ukuran', 'XL')
         check('location.search.includes("size=XL")&&document.querySelectorAll("article").length>0', 'size filter')
-        select('Filter warna', 'Ivory')
-        check('location.search.includes("color=Ivory")&&document.querySelectorAll("article").length>0', 'combined color filter')
+        select('Filter warna', FILTER_COLOR)
+        check('new URLSearchParams(location.search).get("color")==='+json.dumps(FILTER_COLOR)+'&&document.querySelectorAll("article").length>0', 'combined color filter')
         go('/products')
         click('link', 'Halaman 2')
         check('location.search.includes("page=2")&&document.querySelectorAll("article").length===20', 'pagination')
@@ -86,25 +93,26 @@ def run(phase):
         check('Array.from(document.querySelectorAll("button")).find(b=>b.getAttribute("aria-label")==="Buka koleksi DRESS").getAttribute("aria-expanded")==="true"', 'desktop dropdown')
         press_key('Escape')
         click('button', 'Buka pencarian')
-        fill_input('#header-search', 'Aluna')
+        fill_input('#header-search', NAME)
         check('document.querySelectorAll("#header-search").length===1&&document.body.innerText.toLowerCase().includes("lihat semua hasil")', 'header search suggestions')
         press_key('Enter'); time.sleep(.5)
-        check('location.pathname==="/products"&&location.search.includes("Aluna")', 'header search navigation')
+        check('location.pathname==="/products"&&new URLSearchParams(location.search).get("q")==='+json.dumps(NAME), 'header search navigation')
     elif phase == 'shopping':
-        go('/products/aluna-ivory-kebaya')
+        cdp('Emulation.setDeviceMetricsOverride',width=1440,height=900,deviceScaleFactor=1,mobile=False)
+        go(PRODUCT_PATH)
         js("['uplove-cart-v1','uplove-wishlist-v1','uplove-orders-v1'].forEach(k=>localStorage.removeItem(k))")
-        go('/products/aluna-ivory-kebaya')
-        click('button','Tampilkan foto 2 Aluna Ivory Kebaya')
-        check('Array.from(document.querySelectorAll("button")).find(b=>b.getAttribute("aria-label")==="Tampilkan foto 2 Aluna Ivory Kebaya").getAttribute("aria-pressed")==="true"', 'product thumbnails')
-        click('button','Perbesar foto Aluna Ivory Kebaya')
+        go(PRODUCT_PATH)
+        click('button','Tampilkan foto 2 '+NAME)
+        check('Array.from(document.querySelectorAll("button")).find(b=>b.getAttribute("aria-label")==='+json.dumps('Tampilkan foto 2 '+NAME)+').getAttribute("aria-pressed")==="true"', 'product thumbnails')
+        click('button','Perbesar foto '+NAME)
         check('document.querySelector("[role=dialog]").getBoundingClientRect().height>500&&document.querySelector("[role=dialog] img").getBoundingClientRect().height>300','product zoom dimensions')
         press_key('ArrowRight'); press_key('Escape')
-        check('document.activeElement.getAttribute("aria-label")==="Perbesar foto Aluna Ivory Kebaya"','zoom restores focus')
+        check('document.activeElement.getAttribute("aria-label")==='+json.dumps('Perbesar foto '+NAME),'zoom restores focus')
         click('button','DRESS & KEBAYA SIZE CHART')
         check('!!document.querySelector("[role=dialog] table")','size chart')
         press_key('Escape')
         click('radio','M')
-        click('button','Pilih warna Ivory')
+        click('button','Pilih warna '+COLOR)
         check('!document.querySelector("input[name=size]:checked")','color selection resets size')
         click('radio','M')
         click('button','Tambah jumlah')
@@ -112,20 +120,20 @@ def run(phase):
         click('button','TAMBAH KE KERANJANG')
         check('document.querySelector("[role=dialog]").innerText.includes("Keranjang (2)")','add cart opens drawer')
         snapshot('cart-drawer-1440')
-        click('button','Kurangi jumlah Aluna Ivory Kebaya')
+        click('button','Kurangi jumlah '+NAME)
         check('JSON.parse(localStorage.getItem("uplove-cart-v1"))[0].quantity===1','cart quantity persisted')
         press_key('Escape')
         check('document.activeElement.textContent.includes("TAMBAH KE KERANJANG")','cart restores opener focus')
         go('/wishlist')
         check('document.querySelectorAll("article").length===1','wishlist saved')
         go('/cart')
-        check('document.body.innerText.includes("Aluna Ivory Kebaya")','cart survives refresh')
-        click('button','Tambah jumlah Aluna Ivory Kebaya')
-        click('button','Hapus Aluna Ivory Kebaya dari keranjang')
+        check('document.body.innerText.includes('+json.dumps(NAME)+')','cart survives refresh')
+        click('button','Tambah jumlah '+NAME)
+        click('button','Hapus '+NAME+' dari keranjang')
         check('JSON.parse(localStorage.getItem("uplove-cart-v1")).length===0','remove cart item')
         go('/checkout')
         check('document.body.innerText.includes("Keranjang Anda masih kosong")','empty checkout')
-        go('/products/aluna-ivory-kebaya?size=M')
+        go(PRODUCT_PATH+'?size=M')
         click('button','TAMBAH KE KERANJANG')
         click('link','Lanjut ke checkout')
         time.sleep(.5)
@@ -150,6 +158,13 @@ def run(phase):
         url=js('location.pathname+location.search')
         go(url)
         check('document.body.innerText.includes("Ayu Pengujian")&&document.body.innerText.includes("Pembayaran belum dilakukan")','receipt survives refresh, no payment claim')
+        check('document.querySelector("main img").getAttribute("src").includes("%2Finsta%2F")','receipt uses Instagram photograph')
+        largest=max(PRODUCTS,key=lambda p:len(p['images']))
+        go('/products/'+largest['slug'])
+        check('document.querySelector(`[aria-label="Foto produk"]`).getBoundingClientRect().height<=document.querySelector(".product-zoom").getBoundingClientRect().height+1','long gallery thumbnails stay within main photograph')
+        click('button','Tampilkan foto '+str(len(largest['images']))+' '+largest['name'])
+        check('document.querySelector(`[aria-label="Foto produk"] [aria-pressed=true]`).getAttribute("aria-label")==='+json.dumps('Tampilkan foto '+str(len(largest['images']))+' '+largest['name']),'last carousel photograph selectable')
+        snapshot('instagram-long-gallery-1440')
     elif phase == 'mobile':
         cdp('Emulation.setDeviceMetricsOverride',width=390,height=844,deviceScaleFactor=1,mobile=False)
         go('/')
@@ -163,7 +178,7 @@ def run(phase):
         select('Filter ukuran','M')
         press_key('Escape')
         check('location.search.includes("size=M")','mobile filtering')
-        go('/products/aluna-ivory-kebaya?size=M')
+        go(PRODUCT_PATH+'?size=M')
         click('button','TAMBAH KE KERANJANG')
         check('document.querySelector("[role=dialog]").getBoundingClientRect().width>=380','mobile cart width')
         click('link','Lanjut ke checkout')
@@ -178,7 +193,7 @@ def run(phase):
 
 def responsive(widths):
     rows=[]
-    routes=[('/', 'home'),('/products','products'),('/category/dress','category-dress'),('/category/kebaya','category-kebaya'),('/products/aluna-ivory-kebaya','product'),('/checkout','checkout')]
+    routes=[('/', 'home'),('/products','products'),('/category/dress','category-dress'),('/category/kebaya','category-kebaya'),(PRODUCT_PATH,'product'),('/checkout','checkout')]
     for width in widths:
         cdp('Emulation.setDeviceMetricsOverride',width=width,height=844 if width<768 else 900,deviceScaleFactor=1,mobile=False)
         for path,name in routes:
@@ -282,7 +297,8 @@ def homepage():
     check('document.querySelector("main article button").getAttribute("aria-pressed")!=='+json.dumps(saved),'homepage wishlist toggles')
     click('button',js('document.querySelector("main article button").getAttribute("aria-label")'))
     check('document.querySelector("main article button").getAttribute("aria-pressed")==='+json.dumps(saved),'homepage wishlist restores')
-    for label,path in [('Lihat semua Ready-to-Wear','/category/ready-to-wear'),('Lihat semua New Collections','/category/new-arrivals'),('Lihat semua Ready Stock','/category/ready-stock'),('Jelajahi koleksi Dress UpLove','/category/dress'),('Jelajahi koleksi Kebaya UpLove','/category/kebaya')]:
+    ready_path='/category/ready-to-wear' if sum(p['category']=='ready-to-wear' for p in PRODUCTS)>=4 else '/products'
+    for label,path in [('Lihat semua Ready-to-Wear',ready_path),('Lihat semua New Collections','/category/new-arrivals'),('Lihat semua Ready Stock','/category/ready-stock'),('Jelajahi koleksi Dress UpLove','/category/dress'),('Jelajahi koleksi Kebaya UpLove','/category/kebaya')]:
         go('/')
         click('link',label)
         check('location.pathname==='+json.dumps(path)+'&&!document.body.innerText.includes("Halaman tidak ditemukan")',label)

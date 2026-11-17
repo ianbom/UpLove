@@ -8,4 +8,5 @@ out/
 tmp/
 artifacts/
 .cache/
+__pycache__/
 *.pem

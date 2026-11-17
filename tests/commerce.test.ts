@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { filterProducts, validateCart, validateCustomer, createOrder, validateOrders, provinces, persistOrder, readShopStorage, storageKeys, parseJSON } from '../src/lib/commerce.ts';
 import type { Product, Customer } from '../src/types/shop.ts';
+import { products as catalogue } from '../src/data/products.ts';
 
 const product: Product = { id: 'p1', slug: 'uplove', name: 'UpLove Kebaya', category: 'kebaya', collections: ['aluna'], price: 500000, description: 'Katun', material: 'Katun', care: 'Cuci tangan', images: ['/one.jpg'], variants: [{ id: 'ivory', color: 'Ivory', colorHex: '#fff', images: ['/one.jpg'], sizes: [{ size: 'M', stock: 3 }, { size: 'L', stock: 0 }] }], readyStock: true, newArrival: true, popularity: 9, createdAt: '2026-01-01' };
 const products = [product, { ...product, id: 'p2', name: 'Amara Dress', category: 'dress' as const, price: 250000, readyStock: false, popularity: 2, createdAt: '2026-02-01' }];
@@ -61,4 +62,14 @@ stored.set(storageKeys.cart, '[]');
 assert.equal(readShopStorage(storage, storageKeys.cart), '[]');
 assert.equal(readShopStorage({ getItem: key => key === 'selara-wishlist-v1' ? '["selara-001"]' : null, setItem: () => { throw new Error('quota'); } }, storageKeys.wishlist), '["uplove-001"]');
 assert.equal(readShopStorage({ getItem: () => 'bad json', setItem: () => { throw new Error('unexpected write'); } }, storageKeys.cart), 'bad json');
-console.log('Commerce assertions passed, including UpLove data migration.');
+assert.equal(catalogue.length, 50);
+const photographed = catalogue.find(p => p.id.includes('_') && p.readyStock)!;
+const photographedVariant = photographed.variants[0];
+const photographedSize = photographedVariant.sizes.find(s => s.stock > 0)!;
+const photographedLine = { productId: photographed.id, variantId: photographedVariant.id, size: photographedSize.size, quantity: 1 };
+const photographedOrder = createOrder([photographedLine], customer, 'QRIS', catalogue, 25000, 'UPLOVE-instagram', new Date().toISOString());
+assert.match(photographedOrder.items[0].image, /^\/insta\/[A-Za-z0-9_-]+\/\d{2}\.jpg$/);
+assert.deepEqual(validateOrders([photographedOrder], [], 0), [photographedOrder]);
+assert.deepEqual(validateCart([{ ...line, productId: 'uplove-001' }], catalogue), []);
+assert.deepEqual(validateOrders([order], catalogue, 25000), [order]);
+console.log('Commerce assertions passed: Instagram checkout, historical receipts and UpLove data migration.');

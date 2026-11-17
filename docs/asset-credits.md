@@ -1,12 +1,16 @@
 # Asset credits
 
-Downloaded 2026-11-17. All 67 photographs are from Pexels and stored locally as optimized WebP files. No reference-site photos, original logos, customer portraits, AI-generated images, or paid services were used.
+Updated 2026-11-17. The active catalogue uses 227 curated photographs from 50 posts on [@uplove](https://www.instagram.com/uplove/), downloaded with [Instaloader](https://github.com/instaloader/instaloader) 4.16 at the user's explicit request. Each post has a separate `public/insta/<shortcode>/` folder. Names, colors, descriptions and reviewed slide numbers are recorded in `src/data/instagram-posts.json`. Source links follow `https://www.instagram.com/p/<shortcode>/`.
+
+Photos were visually reviewed slide by slide. Promotional graphics, collages, quoted testimonials, food, scenery, group portraits and unrelated garments were excluded. All suitable model/product views of the chosen garment are included. Source JPEGs are copied unchanged; source WebP and MPO images are converted to JPEG at their original dimensions. Captions, customer names, contact details and session data are not published. No endorsement is implied. This requested reuse does not establish a public redistribution license for the Instagram images; they are not covered by the Pexels license below.
+
+The existing 67 Pexels photographs remain locally for campaign/editorial placements and historical receipt images. No original reference-site assets or AI-generated images are included.
 
 ## License
 
 [Pexels License](https://www.pexels.com/license/) permits free website, ecommerce and marketing use, modification, and use without mandatory attribution. It prohibits selling unaltered copies, redistribution as stock, trademark use, and implying endorsement by pictured people or brands. The license page was checked on the download date.
 
-These photographs illustrate a representative catalogue and editorial direction. Models are not presented as customers or endorsers. Product names, prices, size availability, popularity, collection membership and fabric descriptions are authored sample catalogue information, not supplier-verified specifications. Replace with the merchant’s own product photographs and verified specifications before accepting real orders. No claim is made that the pictured garments were designed or manufactured by UpLove.
+The Pexels library illustrates the editorial direction and preserves historical receipt images. Models are not presented as customers or endorsers. Product names and descriptions are authored from visible garment details. Prices, sizes, stock, popularity and collection membership follow the existing frontend data patterns and are not supplier-verified specifications. Material composition is explicitly unspecified. No claim is made that the pictured garments were designed or manufactured by UpLove.
 
 ## Local files and sources
 
@@ -84,6 +88,6 @@ These photographs illustrate a representative catalogue and editorial direction.
 
 ## Image treatment
 
-Catalogue photographs retain their original aspect ratio and full image content. WebP encoding uses EXIF orientation correction, RGB conversion and quality 82; catalogue widths are up to 1200 px and campaign/editorial widths up to 1920 px. The interface applies responsive display crops. Alternate views of the same outfit are grouped under one product rather than counted as separate garments.
+Instagram photographs retain original dimensions and aspect ratios. The interface applies responsive display crops and Next.js Image optimization. Alternate views from each selected post are grouped under one product. Pexels WebP encoding uses EXIF orientation correction, RGB conversion and quality 82; widths are up to 1200 px for portraits and up to 1920 px for campaign/editorial images.
 
-48 distinct representative catalogue entries: 18 kebaya, 26 dresses, and 4 ready-to-wear dresses. Five landscape campaign photographs, two category placements, one atelier banner, twelve editorial placements and two about placements reuse this licensed library where appropriate.
+The active catalogue contains 50 selected posts: 26 kebaya, 23 dresses and one ready-to-wear set. Existing campaign, category, atelier, editorial and about placements continue using the licensed Pexels library.
