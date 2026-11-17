@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function NotFound() { return <div className="container-shop py-24 text-center"><p className="mb-6 text-sm text-primary">UpLove</p><h1 className="editorial-heading text-4xl md:text-5xl">Halaman tidak ditemukan.</h1><p className="my-6">Temukan pilihan busana Anda di koleksi UpLove.</p><Link href="/products" className="primary-link">Lihat semua produk</Link></div>; }

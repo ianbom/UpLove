@@ -1,0 +1,1 @@
+export default function Loading() { return <div role="status" className="container-shop flex min-h-[60vh] items-center justify-center text-sm text-muted-foreground"><span className="mr-3 size-5 animate-spin rounded-full border-2 border-sage border-t-olive" />Memuat koleksi...</div>; }

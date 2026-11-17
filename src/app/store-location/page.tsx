@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import { assets } from "@/data/assets";
+
+export const metadata: Metadata = { title: "Atelier & Konsultasi", description: "Persiapan memilih busana serta informasi konsultasi UpLove." };
+
+export default function AtelierPage() {
+  return <div className="container-shop py-14 md:py-20"><header className="mb-10 text-center md:mb-14"><h1 className="text-4xl font-semibold md:text-5xl">Atelier & Konsultasi</h1><p className="mt-5 text-muted-foreground">Ruang untuk merencanakan pilihan yang personal.</p></header><section className="grid items-center gap-9 md:grid-cols-2 md:gap-16"><div className="relative aspect-[4/5] md:aspect-[5/6]"><Image src={assets.atelier} alt="Inspirasi suasana atelier dan detail busana" fill priority sizes="(max-width: 767px) 100vw, 50vw" className="object-cover" /></div><div className="prose-shop"><p className="mb-4 text-xs tracking-[.18em] text-primary">SEBELUM MEMILIH BUSANA</p><h2 className="editorial-heading !mt-0 !text-4xl">Kenali kebutuhan Anda.</h2><p>Setiap acara punya suasana sendiri. Catat tanggal acara, pilihan warna, serta siluet yang Anda sukai. Ukuran tubuh dan koleksi yang menarik perhatian Anda juga dapat menjadi titik awal.</p><p>Halaman ini belum menyediakan alamat atelier atau jadwal kunjungan. Anda dapat menyusun rencana konsultasi secara lokal; tanggal pilihan belum dikirim atau dikonfirmasi.</p><div className="mt-8 flex flex-wrap gap-3"><Link href="/appointments" className="primary-link">Susun rencana</Link><Link href="/contact-us" className="inline-flex min-h-11 items-center border border-primary px-6 py-3 text-xs font-semibold uppercase tracking-wider text-primary hover:bg-secondary">Hubungi Kami</Link></div><div className="mt-9 border-t border-border pt-6"><h3 className="font-semibold">Siapkan sebelum berkonsultasi</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-muted-foreground"><li>Jenis acara dan tanggal pemakaian.</li><li>Ukuran dada, pinggang, dan pinggul.</li><li>Warna dan potongan yang disukai.</li><li>Tautan koleksi sebagai referensi pilihan.</li></ul></div></div></section></div>;
+}
