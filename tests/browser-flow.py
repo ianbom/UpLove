@@ -183,7 +183,6 @@ def responsive(widths):
         cdp('Emulation.setDeviceMetricsOverride',width=width,height=844 if width<768 else 900,deviceScaleFactor=1,mobile=False)
         for path,name in routes:
             go(path)
-            if name=='home':click('button','Tampilkan slide 1')
             snapshot(name+'-'+str(width))
             rows.append({'width':width,'route':path,'header':js('document.querySelector("header").getBoundingClientRect().height'),'columns':js('document.querySelector("article")?getComputedStyle(document.querySelector("article").parentElement).gridTemplateColumns.split(" ").length:null'),'overflow':js('document.documentElement.scrollWidth>innerWidth')})
     (OUT/('responsive-'+str(widths[0])+'.json')).write_text(json.dumps(rows,indent=2),encoding='utf-8')
@@ -216,18 +215,11 @@ def information():
     click('button','Lihat ringkasan rencana')
     check('document.body.innerText.includes("Rencana Anda telah dirangkum.")','appointment local summary')
     go('/')
-    cdp('Input.dispatchMouseEvent',type='mouseMoved',x=5,y=5)
-    node=next(n for n in cdp('Accessibility.getFullAXTree')['nodes'] if n.get('role',{}).get('value')=='link' and n.get('name',{}).get('value')=='Lihat Aluna Collection')
-    cdp('DOM.focus',backendNodeId=node['backendDOMNodeId'])
-    href=js('document.activeElement.getAttribute("href")')
-    time.sleep(6.5)
-    assert js('document.activeElement.getAttribute("href")')==href
-    print('PASS hero preserves keyboard focus during autoplay',flush=True)
     cdp('Emulation.setEmulatedMedia',features=[{'name':'prefers-reduced-motion','value':'reduce'}])
-    go('/')
-    check('!Array.from(document.querySelectorAll("button")).some(b=>b.getAttribute("aria-label")==="Jeda slider")','reduced motion pauses autoplay')
-    click('button','Tampilkan slide 3')
-    check('document.querySelector("section[aria-roledescription=carousel] h2").textContent.includes("Golden")','reduced motion manual slides')
+    check('!document.querySelector("[aria-roledescription=carousel]")', 'static homepage hero')
+    check('Array.from(document.querySelectorAll("main a")).filter(a=>a.textContent==="Shop Now").every(a=>parseFloat(getComputedStyle(a).transitionDuration)<=.001)','hero respects reduced motion')
+    click('link','Shop Now')
+    check('location.pathname==="/category/new-arrivals"','hero collection navigation')
     cdp('Emulation.setEmulatedMedia',features=[])
     for width in [1440,390]:
         cdp('Emulation.setDeviceMetricsOverride',width=width,height=900,deviceScaleFactor=1,mobile=False)
@@ -245,3 +237,71 @@ def information():
     (OUT/'browser-information.json').write_text(json.dumps(errors,indent=2),encoding='utf-8')
     assert not errors,errors
     print('PASS information pages no browser errors',flush=True)
+
+
+def homepage():
+    cdp('Runtime.enable'); cdp('Log.enable'); drain_events()
+    rows=[]
+    for width in [1440,1280,1024,768,390,375]:
+        cdp('Emulation.setDeviceMetricsOverride',width=width,height=900 if width>=768 else 844,deviceScaleFactor=1,mobile=width<768)
+        go('/')
+        check('Array.from(document.querySelectorAll("main section")).map(s=>s.getAttribute("aria-labelledby")).join(",")==="home-title,ready-to-wear-title,new-collections-title,ready-stock-title"','homepage section order '+str(width))
+        check('document.querySelectorAll("main h1").length===1&&document.querySelectorAll("main article").length===8','homepage heading and product count '+str(width))
+        check('!!document.querySelector("header")&&!!document.querySelector("footer")&&!document.querySelector("header").innerText.includes("IDR")','homepage navigation retained '+str(width))
+        layout=js('''(() => {
+            const rect=e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,w:r.width,h:r.height,bottom:r.bottom}};
+            const sections=Array.from(document.querySelectorAll('main section'));
+            const products=Array.from(document.querySelectorAll('main article'));
+            const editorial=sections[2];
+            return {hero:rect(sections[0]),columns:getComputedStyle(products[0].parentElement).gridTemplateColumns.split(' ').length,
+                portrait:rect(products[0].querySelector('img').parentElement),square:rect(products[4].querySelector('img').parentElement),
+                main:rect(editorial.children[0]),secondary:rect(editorial.children[2]),copy:rect(editorial.children[3])};
+        })()''')
+        assert layout['columns']==(4 if width>=768 else 2),layout
+        assert abs(layout['hero']['w']/layout['hero']['h']-(19/9 if width>=768 else 4/3))<.01,layout
+        assert abs(layout['portrait']['w']/layout['portrait']['h']-.75)<.01,layout
+        assert abs(layout['square']['w']/layout['square']['h']-1)<.01,layout
+        assert abs(layout['main']['bottom']-layout['secondary']['bottom'])<1,layout
+        if width<768:
+            assert layout['copy']['y']>=layout['main']['bottom'],layout
+        else:
+            assert layout['copy']['x']>layout['secondary']['x']+layout['secondary']['w'],layout
+        rows.append({'width':width,**layout})
+        snapshot('home-redesign-'+str(width))
+    click('button','Buka menu')
+    check('!!document.querySelector("[role=dialog]")&&!document.querySelector("[role=dialog]").innerText.includes("IDR")','homepage mobile menu')
+    press_key('Escape')
+    click('button','Buka keranjang',exact=False)
+    check('!!document.querySelector("[role=dialog]")&&document.querySelector("[role=dialog]").innerText.includes("Keranjang")','homepage mobile cart drawer')
+    press_key('Escape')
+    cdp('Emulation.setDeviceMetricsOverride',width=1440,height=900,deviceScaleFactor=1,mobile=False)
+    go('/')
+    saved=js('document.querySelector("main article button").getAttribute("aria-pressed")')
+    name=js('document.querySelector("main article button").getAttribute("aria-label")')
+    click('button',name)
+    check('document.querySelector("main article button").getAttribute("aria-pressed")!=='+json.dumps(saved),'homepage wishlist toggles')
+    click('button',js('document.querySelector("main article button").getAttribute("aria-label")'))
+    check('document.querySelector("main article button").getAttribute("aria-pressed")==='+json.dumps(saved),'homepage wishlist restores')
+    for label,path in [('Lihat semua Ready-to-Wear','/category/ready-to-wear'),('Lihat semua New Collections','/category/new-arrivals'),('Lihat semua Ready Stock','/category/ready-stock'),('Jelajahi koleksi Dress UpLove','/category/dress'),('Jelajahi koleksi Kebaya UpLove','/category/kebaya')]:
+        go('/')
+        click('link',label)
+        check('location.pathname==='+json.dumps(path)+'&&!document.body.innerText.includes("Halaman tidak ditemukan")',label)
+        check('Array.from(document.querySelectorAll("article")).every(a=>a.dataset.presentation==="catalogue"&&getComputedStyle(a.querySelector("img").parentElement).aspectRatio==="9 / 16")','catalogue image proportions preserved')
+    go('/')
+    node=next(n for n in cdp('Accessibility.getFullAXTree')['nodes'] if n.get('role',{}).get('value')=='link' and n.get('name',{}).get('value')=='Shop Now')
+    cdp('DOM.focus',backendNodeId=node['backendDOMNodeId'])
+    press_key('Enter');time.sleep(.6)
+    check('location.pathname==="/category/new-arrivals"','hero keyboard navigation')
+    go('/')
+    first=js('document.querySelector("main article a").getAttribute("href")')
+    click('link',js('document.querySelector("main article img").alt'),exact=False)
+    check('location.pathname==='+json.dumps(first),'homepage product navigation')
+    cdp('Emulation.setEmulatedMedia',features=[{'name':'prefers-reduced-motion','value':'reduce'}])
+    go('/')
+    check('Array.from(document.querySelectorAll("main a")).filter(a=>a.textContent==="Shop Now").every(a=>parseFloat(getComputedStyle(a).transitionDuration)<=.001)','homepage reduced motion')
+    cdp('Emulation.setEmulatedMedia',features=[])
+    events=drain_events()
+    errors=[e for e in events if e.get('method')=='Runtime.exceptionThrown' or (e.get('method')=='Log.entryAdded' and e.get('params',{}).get('entry',{}).get('level')=='error')]
+    (OUT/'home-redesign-verification.json').write_text(json.dumps({'layouts':rows,'errors':errors},indent=2),encoding='utf-8')
+    assert not errors,errors
+    print('PASS homepage responsive layouts, navigation, wishlist, keyboard and browser errors',flush=True)
